@@ -9,7 +9,7 @@
   - ✅ Development, maintenance, enhancement and migration of “my Solutions” portal that offers investment solutions, 
     and enables to design, price, and trade structured products, hedging strategies, and standard FX transaction
 
-<b>Tech Stack:</b>
+<b><u>Tech Stack:</u></b>
 ```
 Java 11/17/21, Kotlin, SOAP, Tomcat, Angular, REST, JSON, SQL, MS SQL Server, Oracle DB, PL/SQL, MongoDB, 
 JPA, Hibernate, Spring Boot, Spring batch, Maven, Gradle, Git, Bitbucket, GitLab, GitLab CI, OpenShift, 
@@ -25,7 +25,7 @@ Argo CD, Docker, Jenkins, JUnit, Kubernetes, Helm, TestNG, Cucumber, AngularJS, 
 	- ✅ Coordinate with developer teams, supplying and subcontractor companies, service providers, and external 
       IT auditors aiming maintenance, quality assurance, integration of new products, services and processes
 
-<b>Tech Stack:</b>
+<b><u>Tech Stack:</u></b>
 ```
 Java 8/11, JBOSS, IIS 8, SOAP, Tomcat, REST, JSON, SQL, MS SQL Server, MongoDB, PostgreSQL, Hibernate, 
 Spring Boot, Python, Maven, Git, Docker, Sonar, Jenkins, JUnit, Angular, OpenApi / Swagger, SCRUM.
@@ -41,7 +41,7 @@ Spring Boot, Python, Maven, Git, Docker, Sonar, Jenkins, JUnit, Angular, OpenApi
       availability of critical network management applications and services; enables shorter upgrade times. 
       Multinational agile teams in U.S., Ireland, India and Italy.
 
-<b>Tech Stack:</b>
+<b><u>Tech Stack:</u></b>
 ```
 Java EE, EJB, JPA, Hibernate, Spring Boot, Spring Security, Python, JUnit, Mockito, Arquillian, 
 Jasmine, Selenium WebDriver, Docker, Kubernetes, Maven, Jenkins, Sonar, XML, SQL, MS SQL Server, 
@@ -61,9 +61,9 @@ Versant, HTML, CSS, JavaScript, AJAX, REST, Git, Gerrit, Centos, Linux, Jira, Co
       safeguard protected.
 
 
-  <b>Tech Stack:</b>
+  <b><u>Tech Stack:</u></b>
   ```
-  Visual Studio, WebStorm, Brackets, JSON, SQL, XML, JavaScript, HTML, CSS, Web Services, JAVA EE, JSP, JPA,
+  Visual Studio, WebStorm, Brackets, JSON, SQL, XML, JavaScript, HTML, CSS, Web Services, Java EE, JSP, JPA,
   Apache Server, MS SQL Server, Git, Slack, Trello, SCRUM, Tibco GI, Angular, ASP.NET, IIS 8 .
   ```
 
@@ -71,7 +71,7 @@ Versant, HTML, CSS, JavaScript, AJAX, REST, Git, Gerrit, Centos, Linux, Jira, Co
     - Clients: NTT DATA Italia S.p.A. / Fideuram - Intesa Sanpaolo Private Banking Spa - Rome, Italy
     - ✅ Development and maintenance of the application Fideuram online, online banking customer service of Fideuram Bank.
 
-  <b>Tech Stack:</b>
+  <b><u>Tech Stack:</u></b>
   ```
   Eclipse, IntelliJ, Struts, JSP, Java EE, Angular, Junit, JSON, Struts, EJB, SQL, Maven, XML, 
   JavaScript, HTML, Web Services, BEA WebLogic Server, Oracle, SVN, Redmine, Jira, Confluence.
@@ -83,7 +83,7 @@ Versant, HTML, CSS, JavaScript, AJAX, REST, Git, Gerrit, Centos, Linux, Jira, Co
       different product categories with flash sales sites (private sales, reserved for members site of flash sales, 
       with characteristic steep discount compared to the retail price and limited in time).
 
-  <b>Tech Stack:</b>
+  <b><u>Tech Stack:</u></b>
   ```
   Aptana, Ruby on Rails, Spree Commerce, Bootstrap, JQuery, JSON, HTML5, CSS3, AJAX, REST, Git, Centos, 
   Heroku, AWS, Foreman, Redis, Resque, PostgreSQL, Bitbucket, Slack, Trello, VirtualBox, SCRUM.
@@ -95,7 +95,7 @@ Versant, HTML, CSS, JavaScript, AJAX, REST, Git, Gerrit, Centos, Linux, Jira, Co
       monitoring the movement of flows between different companies of the group ACEA and SIA SSB itself, in the process 
       of exchange for direct debit with SIA SSB Banks (SEPA).
  
-  <b>Tech Stack:</b>
+  <b><u>Tech Stack:</u></b>
   ```  
   Eclipse, Java EE, JUnit, Jenkins, JBoss, JQuery, Bootstrap, JSON, HTML5, CSS3, AJAX, REST, Tomcat, SVN.
   ```
@@ -107,9 +107,9 @@ Versant, HTML, CSS, JavaScript, AJAX, REST, Git, Gerrit, Centos, Linux, Jira, Co
         which enables Personal Financial Advisers to formulate investment proposals and provide complete customer 
         reporting for the Basic Advisory.
 
-  <b>Tech Stack:</b>
+  <b><u>Tech Stack:</u></b>
   ```   
-  Eclipse IDE, JAVA EE, Spring, VMware, GWT (Google Web Toolkit), EJB, JPA,
+  Eclipse IDE, Java EE, Spring, VMware, GWT (Google Web Toolkit), EJB, JPA,
   GXT Sencha, JavaScript, HTML, XML, CSS, MS SQL Server, Hibernate.
   ```   
 
@@ -118,9 +118,9 @@ Versant, HTML, CSS, JavaScript, AJAX, REST, Git, Gerrit, Centos, Linux, Jira, Co
     - ✅ Migration, development and maintenance of the application MilleMiglia CLS (Customer Loyalty Service) of 
       Alitalia air company.
 
-  <b>Tech Stack:</b>
+  <b><u>Tech Stack:</u></b>
   ```
-  Eclipse, JAVA EE, GWT, TSQL, PL/SQL, XML, CSS, HTML, AJAX, JQuery, JavaScript, COBOL, PHP, Tomcat.
+  Eclipse IDE, Java EE, GWT, TSQL, PL/SQL, XML, CSS, HTML, AJAX, JQuery, JavaScript, COBOL, PHP, Tomcat.
   ```
 
   - #### 09/2010 - 06/2011
@@ -128,7 +128,7 @@ Versant, HTML, CSS, JavaScript, AJAX, REST, Git, Gerrit, Centos, Linux, Jira, Co
     - ✅ Development and maintenance of the e-commerce portal Glamoo, a community dedicated to all those who want 
       to win the best local products and services at very low-cost prices.
 
-  <b>Tech Stack:</b>
+  <b><u>Tech Stack:</u></b>
   ```  
   Eclipse IDE, Spring, Java EE, JSF, MySQL, Hibernate, XML, Web Services, 
   HTML, CSS, JQuery, JSON, JavaScript, Tomcat, SVN, Maven, JUnit, Jira, Confluence.
