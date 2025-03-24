@@ -13,7 +13,7 @@
 ```
 Java 11/17/21, Kotlin, SOAP, Tomcat, Angular, REST, JSON, SQL, MS SQL Server, Oracle DB, PL/SQL, MongoDB, 
 JPA, Hibernate, Spring Boot, Spring batch, Maven, Gradle, Git, Bitbucket, GitLab, GitLab CI, OpenShift, 
-Argo CD, Docker, Jenkins, JUnit, Kubernetes, Helm, TestNG, Cucumber, AngularJS, OpenApi / Swagger, SCRUM.  
+Argo CD, Docker, Jenkins, JUnit, Kubernetes, Helm, TestNG, Cucumber, OpenApi / Swagger, SCRUM.
 ```
 
 ### 01/2018 – 08/2021	
