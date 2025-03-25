@@ -1,135 +1,168 @@
-# 🎯 Lorenc Bushati
+# **📜 Lorenc Bushati - Software Engineer**
 
-### 01/2022 – 09/2024
-- Software Engineer
-- TechneValue GmbH - Pfäffikon, Switzerland
-- Clients: Zühlke Engineering AG / Credit Suisse AG (UBS Group AG) - Zürich, Switzerland
+📍 **Switzerland** | 🔗 **[LinkedIn Profile](https://www.linkedin.com/in/lorenc-bushati)**
 
-  - ✅ Team coordination
-  - ✅ Development, maintenance, enhancement and migration of “my Solutions” portal that offers investment solutions, 
-    and enables to design, price, and trade structured products, hedging strategies, and standard FX transaction
+---
 
-<b><u>Tech Stack:</u></b>
+## **💼 Work Experience**
+
+---
+
+1. ### **Full Stack Software Engineer**
+📅 **01/2022 – 09/2024**  
+🏢 **TechneValue GmbH - Pfäffikon, Switzerland**  
+👥 **Clients: Zühlke Engineering AG / Credit Suisse AG (UBS Group AG) - Zürich, Switzerland**
+
+- ✅ Team coordination
+- ✅ Development, maintenance, enhancement, and migration of the *my Solutions* portal, which offers investment 
+  solutions and enables designing, pricing, and trading structured products, hedging strategies, and standard FX transactions
+
+**🛠 Tech Stack:**  
 ```
-Java 11/17/21, Kotlin, SOAP, Tomcat, Angular, REST, JSON, SQL, MS SQL Server, Oracle DB, PL/SQL, MongoDB, 
-JPA, Hibernate, Spring Boot, Spring batch, Maven, Gradle, Git, Bitbucket, GitLab, GitLab CI, OpenShift, 
-Argo CD, Docker, Jenkins, JUnit, Kubernetes, Helm, TestNG, Cucumber, OpenApi / Swagger, SCRUM.
+Java 11/17/21, Kotlin, SOAP, Tomcat, Angular, REST, JSON, SQL, MS SQL Server, Oracle DB, 
+PL/SQL, MongoDB, JPA, Hibernate, Spring Boot, Spring Batch, Maven, Gradle, Git, Bitbucket, 
+GitLab, GitLab CI, OpenShift, Argo CD, Docker, Jenkins, JUnit, Kubernetes, Helm, TestNG, 
+Cucumber, OpenAPI / Swagger, SCRUM.`
 ```
+---
 
-### 01/2018 – 08/2021	
-- IT Manager / Full Stack Software Engineer 
-- Union of Financial Corners (Switzerland) - Geneva, Switzerland
+2. ### **IT Manager / Full Stack Software Engineer**
+📅 **01/2018 – 08/2021**  
+🏢 **Union of Financial Corners (Switzerland) - Geneva, Switzerland**
 
-	- ✅ Design, integration and software implementation with an aim of automation and optimization of back-office 
-      tools and applications
-	- ✅ Coordinate with developer teams, supplying and subcontractor companies, service providers, and external 
-      IT auditors aiming maintenance, quality assurance, integration of new products, services and processes
+- ✅ Designed, integrated, and implemented software to automate and optimize back-office tools and applications
+- ✅ Coordinated with development teams, service providers, and external IT auditors to ensure system maintenance and quality assurance
 
-<b><u>Tech Stack:</u></b>
+**🛠 Tech Stack:**
 ```
-Java 8/11, JBOSS, IIS 8, SOAP, Tomcat, REST, JSON, SQL, MS SQL Server, MongoDB, PostgreSQL, Hibernate, 
-Spring Boot, Python, Maven, Git, Docker, Sonar, Jenkins, JUnit, Angular, OpenApi / Swagger, SCRUM.
+Java 8/11, JBOSS, IIS 8, SOAP, Tomcat, REST, JSON, SQL, MS SQL Server, 
+MongoDB, PostgreSQL, Hibernate, Spring Boot, Python, Maven, Git, 
+Docker, Sonar, Jenkins, JUnit, Angular, OpenAPI / Swagger, SCRUM.
 ```
+---
 
-### 01/2016 – 01/2018	Software Engineer
-- <b>Full Stack Software Engineer</b>
-- Altran - Genoa, Italy
-- Client: Ericsson - Genoa, Italy
+3. ### **Full Stack Software Engineer**
+📅 **01/2016 – 01/2018**  
+🏢 **Altran - Genoa, Italy**  
+👥 **Client: Ericsson - Genoa, Italy**
 
-	- ✅ Implementation and maintenance of project Ericsson Network Manager (ENM), next-generation unified network 
-      management system, that supports improved network performance and lower operational costs and provides high 
-      availability of critical network management applications and services; enables shorter upgrade times. 
-      Multinational agile teams in U.S., Ireland, India and Italy.
+- ✅ Developed and maintained the *Ericsson Network Manager (ENM)*, a next-generation unified network management 
+  system that enhances network performance and reduces operational costs
 
-<b><u>Tech Stack:</u></b>
+**🛠 Tech Stack:**  
 ```
-Java EE, EJB, JPA, Hibernate, Spring Boot, Spring Security, Python, JUnit, Mockito, Arquillian, 
-Jasmine, Selenium WebDriver, Docker, Kubernetes, Maven, Jenkins, Sonar, XML, SQL, MS SQL Server, 
-Versant, HTML, CSS, JavaScript, AJAX, REST, Git, Gerrit, Centos, Linux, Jira, Confluence, SCRUM.
+Java EE, EJB, JPA, Hibernate, Spring Boot, Spring Security, Python, JUnit, 
+Mockito, Arquillian, Jasmine, Selenium WebDriver, Docker, Kubernetes, 
+Maven, Jenkins, Sonar, XML, SQL, MS SQL Server, Versant, HTML, CSS, 
+JavaScript, AJAX, REST, Git, Gerrit, CentOS, Linux, Jira, Confluence, SCRUM.
 ```
+---
 
-### 09/2010 – 12/2015
-- <b>Full Stack Software Developer</b>
-- Key Partner - Rome, Italy
-
-  #### <u>Involved in the following clients’ projects:</u>
-  
-  - #### 04/2015 - 12/2015
-    - Client: ACEA Spa - Rome, Italy
-    - ✅ The PAD (Portal Acea Distribuzione) is a web application of "Acea Distribuzione SpA" Company aimed at managing 
-      operational relations with sales companies operating in the electricity sector, in the free market and 
-      safeguard protected.
+### 4. **Full Stack Software Developer**
+📅 **09/2010 – 12/2015**  
+🏢 **Key Partner - Rome, Italy**
 
 
-  <b><u>Tech Stack:</u></b>
-  ```
-  Visual Studio, WebStorm, Brackets, JSON, SQL, XML, JavaScript, HTML, CSS, Web Services, Java EE, JSP, JPA,
-  Apache Server, MS SQL Server, Git, Slack, Trello, SCRUM, Tibco GI, Angular, ASP.NET, IIS 8 .
-  ```
-
-  - #### 06/2014 - 03/2015
-    - Clients: NTT DATA Italia S.p.A. / Fideuram - Intesa Sanpaolo Private Banking Spa - Rome, Italy
-    - ✅ Development and maintenance of the application Fideuram online, online banking customer service of Fideuram Bank.
-
-  <b><u>Tech Stack:</u></b>
-  ```
-  Eclipse, IntelliJ, Struts, JSP, Java EE, Angular, Junit, JSON, Struts, EJB, SQL, Maven, XML, 
-  JavaScript, HTML, Web Services, BEA WebLogic Server, Oracle, SVN, Redmine, Jira, Confluence.
-  ```
-
-  - #### 03/2014 - 06/2014
-    - Client: Brandon Ferrari - Milan, Italy
-	- ✅ Development of the e-commerce site for Brandon Ferrari, a broker/dealer that connects suppliers brands of 
-      different product categories with flash sales sites (private sales, reserved for members site of flash sales, 
-      with characteristic steep discount compared to the retail price and limited in time).
-
-  <b><u>Tech Stack:</u></b>
-  ```
-  Aptana, Ruby on Rails, Spree Commerce, Bootstrap, JQuery, JSON, HTML5, CSS3, AJAX, REST, Git, Centos, 
-  Heroku, AWS, Foreman, Redis, Resque, PostgreSQL, Bitbucket, Slack, Trello, VirtualBox, SCRUM.
-  ```
-  
-  - #### 11/2013 - 03/2014
-    - Client: ACEA Spa - Rome, Italy
-	- ✅ Re-engineering and customization through the latest technology, of an existing application for
-      monitoring the movement of flows between different companies of the group ACEA and SIA SSB itself, in the process 
-      of exchange for direct debit with SIA SSB Banks (SEPA).
+  > **👥 <u>Client Projects:</u>**
  
-  <b><u>Tech Stack:</u></b>
-  ```  
-  Eclipse, Java EE, JUnit, Jenkins, JBoss, JQuery, Bootstrap, JSON, HTML5, CSS3, AJAX, REST, Tomcat, SVN.
+- **4.1. ACEA Spa - Rome, Italy**
+  : 📅 **(04/2015 - 12/2015)**\
+    ✅ Developed *"Portale Acea Distribuzione"* (PAD) for managing operational relations in the electricity sector.
+
+  🛠 **Tech Stack:**
   ```
+  Java EE, JSP, JPA, WebStorm, Web Services, Angular, 
+  Apache Server, MS SQL Server, Git, Slack, Trello, SCRUM.
+  ```
+---
 
-	
-  - #### 02/2012 - 11/2013
-      - Clients: Hewlett Packard Enterprise (HP) / Fideuram - Intesa Sanpaolo Private Banking Spa - Rome, Italy
-      - ✅ Development and maintenance of front-end of back-end of portal “Consulenza Avanzata SEI” for “Fideuram Bank”, 
-        which enables Personal Financial Advisers to formulate investment proposals and provide complete customer 
-        reporting for the Basic Advisory.
+  
+- **4.2. NTT Data Italia / Fideuram Bank - Rome, Italy** 
+  : 📅 **(06/2014 - 03/2015)**\
+    ✅ Developed and maintained *Fideuram Online*, an online banking service.
+  
+  🛠 **Tech Stack:** 
+  ```
+  Eclipse, IntelliJ, Struts, JSP, Angular, JUnit, JSON, 
+  SQL, XML, BEA WebLogic, Oracle, SVN, Jira, Confluence.
+   ```
+---
 
-  <b><u>Tech Stack:</u></b>
+- **4.3. Brandon Ferrari - Milan, Italy** 
+  : 📅 **(03/2014 - 06/2014)**\
+    ✅ Built an *e-commerce site* for Brandon Ferrari, connecting brands with flash sales sites.
+  
+  🛠 **Tech Stack:** 
+  ```  
+  Ruby on Rails, Spree Commerce, Bootstrap, JQuery, JSON, AJAX, 
+  PostgreSQL, AWS, Redis, Heroku, Git, Bitbucket, Trello.
+  ```
+---
+
+- **4.4. ACEA Spa - Rome, Italy** 
+  : 📅 **(11/2013 - 03/2014)**\
+    ✅ Re-engineered an application for monitoring financial transactions in the SEPA process.
+  
+  🛠 **Tech Stack:** 
+  ```  
+  Java EE, JBoss, JSON, HTML5, CSS3, AJAX, REST, Tomcat, SVN.
+  ```
+---
+
+- **4.5. Hewlett Packard Enterprise / Fideuram Bank - Rome, Italy** 
+  : 📅 **(02/2012 - 11/2013)**\
+    ✅ Developed *Consulenza Avanzata SEI*, an investment advisory platform for *Fideuram Bank*.
+  
+  🛠 **Tech Stack:** 
   ```   
-  Eclipse IDE, Java EE, Spring, VMware, GWT (Google Web Toolkit), EJB, JPA,
-  GXT Sencha, JavaScript, HTML, XML, CSS, MS SQL Server, Hibernate.
+  Spring, GWT, EJB, JPA, Hibernate, JavaScript, MS SQL Server, XML, CSS.
+  ```
+---  
+
+- **4.6. Reply S.p.A. / Alitalia - Rome, Italy** 
+  : 📅 **(06/2011 - 01/2012)**\
+    ✅ Migrated and maintained the *MilleMiglia CLS* (Customer Loyalty Service) for *Alitalia*.
+  
+  🛠 **Tech Stack:** 
+  ```  
+  Java EE, GWT, TSQL, PL/SQL, XML, CSS, HTML, AJAX, JavaScript, Tomcat.
+  ```
+---
+
+- **4.7. Glamoo - Rome, Italy / London, UK** 
+  : 📅 **(09/2010 - 06/2011)**\
+    ✅ Developed *Glamoo*, an e-commerce platform for local deals and services.
+  
+  🛠 **Tech Stack:** 
   ```   
-
-  - #### 06/2011 - 01/2012
-    - Clients: Reply S.p.A. / Alitalia, Rome - Italy
-    - ✅ Migration, development and maintenance of the application MilleMiglia CLS (Customer Loyalty Service) of 
-      Alitalia air company.
-
-  <b><u>Tech Stack:</u></b>
+  Spring, JSF, Hibernate, XML, Web Services, JSON, 
+  JavaScript, Tomcat, Maven, JUnit, Jira, Confluence.
   ```
-  Eclipse IDE, Java EE, GWT, TSQL, PL/SQL, XML, CSS, HTML, AJAX, JQuery, JavaScript, COBOL, PHP, Tomcat.
-  ```
+---
 
-  - #### 09/2010 - 06/2011
-    - Client: Glamoo - Rome, Italy / London, UK
-    - ✅ Development and maintenance of the e-commerce portal Glamoo, a community dedicated to all those who want 
-      to win the best local products and services at very low-cost prices.
 
-  <b><u>Tech Stack:</u></b>
-  ```  
-  Eclipse IDE, Spring, Java EE, JSF, MySQL, Hibernate, XML, Web Services, 
-  HTML, CSS, JQuery, JSON, JavaScript, Tomcat, SVN, Maven, JUnit, Jira, Confluence.
-  ```  
+## **📚 Education**
+🎓 **Bachelor’s Degree in Computer Engineering**  
+📍  **Università degli Studi di Roma Tre** | 📅 **2010**
+
+---
+
+## **🎖 Certifications**
+🏆 **ITIL® Foundation Certificate in IT Service Management** | AXELOS & PeopleCert.org | 📅 **2021**  
+🏆 **Cyber Security Foundation Professional Certificate** | Certiprof.com | 📅 **2021**
+🏆 **1Z0-851 Java Standard Edition 6 Programmer Certified Professional Exam** | Oracle | 📅 **2013**
+🏆 **Enhancing Education for the Longevity of Electronic Archives** | UNESCO | 📅 **2010**
+
+---
+
+## **💡 Skills**
+- **Languages:** Java, Kotlin, Python, JavaScript, TypeScript, SQL, PL/SQL, Ruby on Rails, Node
+- **Frameworks:** Spring Boot, Hibernate, Struts, Angular, React
+- **Databases:** Oracle, MS SQL Server, MongoDB, PostgreSQL, MySQL
+- **Cloud & DevOps:** Kubernetes, Docker, AWS, Jenkins, OpenShift, Jenkins, Maven, CI/CD
+- **Agile:** SCRUM, Kanban, SAFe, Waterfall, Jira
+
+---
+
+## **📩 Contact**
+🔗 **[LinkedIn Profile](https://www.linkedin.com/in/lorenc-bushati)**  
