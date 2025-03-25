@@ -1,0 +1,37 @@
+title: Lorenc Bushati
+email: lorbush@gmail.com
+description: >
+  CV Lorenc Bushati
+baseurl: ""
+url: "http://lorenc-bushati.gitlab.io"
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+exclude:
+  - .jekyll-cache
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - README.md
+  - yarn.lock
+
+include: ["_pages"]
+
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+
+

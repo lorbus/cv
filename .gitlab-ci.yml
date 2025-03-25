@@ -1,14 +1,56 @@
-# The Docker image that will be used to build your app
-image: node:lts
+#image: node:lts
+#pages:
+#  script:
+#    - mkdir .public
+#    - cp -r * .public
+#    - mv .public public
+#  artifacts:
+#    paths:
+#      # The folder that contains the files to be exposed at the Page URL
+#      - public
+##  rules:
+##    # This ensures that only pushes to the default branch will trigger a pages deploy
+##    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+
+
+#image: busybox
+#
+#pages:
+#  stage: deploy
+#  script:
+#    - echo 'Nothing to do...'
+#  artifacts:
+#    paths:
+#      - public
+##  rules:
+##    # This ensures that only pushes to the default branch will trigger a pages deploy
+##    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+
+
+image: ruby:latest
+
+variables:
+  JEKYLL_ENV: production
+
+before_script:
+  - bundle install
+
+#test:
+#  stage: test
+#  script:
+#    - bundle exec jekyll build -d test
+#  artifacts:
+#    paths:
+#      - test
+#  except:
+#    - main
+
 pages:
+  stage: deploy
   script:
-    - mkdir .public
-    - cp -r * .public
-    - mv .public public
+    - bundle exec jekyll build -d public
   artifacts:
     paths:
-      # The folder that contains the files to be exposed at the Page URL
       - public
-  rules:
-    # This ensures that only pushes to the default branch will trigger a pages deploy
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+#  only:
+#    - main
