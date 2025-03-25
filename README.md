@@ -20,9 +20,9 @@
 **🛠 Tech Stack:**  
 ```
 Java 11/17/21, Kotlin, SOAP, Tomcat, Angular, REST, JSON, SQL, MS SQL Server, Oracle DB, 
-PL/SQL, MongoDB, JPA, Hibernate, Spring Boot, Spring Batch, Maven, Gradle, Git, Bitbucket, 
-GitLab, GitLab CI, OpenShift, Argo CD, Docker, Jenkins, JUnit, Kubernetes, Helm, TestNG, 
-Cucumber, OpenAPI / Swagger, SCRUM.`
+PL/SQL, MongoDB, JPA, Hibernate, Spring, Maven, Gradle, Bitbucket, GitLab, OpenShift, 
+Docker, Kubernetes, Helm, Jenkins, Argo CD, Sonar, JFrog, Splunk, Prometheus, Grafana
+JUnit, TestNG,Cucumber, OpenAPI / Swagger, SCRUM.
 ```
 ---
 
@@ -71,7 +71,7 @@ JavaScript, AJAX, REST, Git, Gerrit, CentOS, Linux, Jira, Confluence, SCRUM.
 
   🛠 **Tech Stack:**
   ```
-  Java EE, JSP, JPA, WebStorm, Web Services, Angular, 
+  Java EE, JSP, JPA, Hibernate, Web Services, SOAP, REST, Angular, 
   Apache Server, MS SQL Server, Git, Slack, Trello, SCRUM.
   ```
 ---
@@ -83,8 +83,8 @@ JavaScript, AJAX, REST, Git, Gerrit, CentOS, Linux, Jira, Confluence, SCRUM.
   
   🛠 **Tech Stack:** 
   ```
-  Eclipse, IntelliJ, Struts, JSP, Angular, JUnit, JSON, 
-  SQL, XML, BEA WebLogic, Oracle, SVN, Jira, Confluence.
+  Java, Struts, JSP, Angular, JUnit, JSON, 
+  SQL, XML, BEA WebLogic, Oracle, Git, Jira, Confluence.
    ```
 ---
 
@@ -115,7 +115,7 @@ JavaScript, AJAX, REST, Git, Gerrit, CentOS, Linux, Jira, Confluence, SCRUM.
   
   🛠 **Tech Stack:** 
   ```   
-  Spring, GWT, EJB, JPA, Hibernate, JavaScript, MS SQL Server, XML, CSS.
+  Java, Spring, GWT, GXT, EJB, JPA, Hibernate, jQuery, JavaScript, MS SQL Server, XML, CSS.
   ```
 ---  
 
@@ -135,8 +135,8 @@ JavaScript, AJAX, REST, Git, Gerrit, CentOS, Linux, Jira, Confluence, SCRUM.
   
   🛠 **Tech Stack:** 
   ```   
-  Spring, JSF, Hibernate, XML, Web Services, JSON, 
-  JavaScript, Tomcat, Maven, JUnit, Jira, Confluence.
+  Java, EJB, Spring, JSP, JSF, JPA, Hibernate, XML, Web Services, SOAP, REST, 
+  Tomcat, MySQL, JSON, JavaScript, Tomcat, Maven, JUnit, Jira, Confluence.
   ```
 ---
 

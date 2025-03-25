@@ -1,17 +1,23 @@
 title: Lorenc Bushati
-email: lorbush@gmail.com
-description: >
-  CV Lorenc Bushati
+description: CV Lorenc Bushati
+
 baseurl: ""
-url: "http://lorenc-bushati.gitlab.io"
+url: "https://lorenc-bushati.gitlab.io"
+
+show_downloads: false
+
+site.url: "https://lorenc-bushati.gitlab.io"
 
 # Build settings
 markdown: kramdown
+
+remote_theme: pages-themes/hacker@v0.2.0
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-remote-theme
 
 exclude:
   - .jekyll-cache
@@ -23,15 +29,3 @@ exclude:
   - package.json
   - README.md
   - yarn.lock
-
-include: ["_pages"]
-
-defaults:
-  -
-    scope:
-      path: ""      # empty string for all files
-      type: posts   # limit to posts
-    values:
-      is_post: true # automatically set is_post=true for all posts
-
-
