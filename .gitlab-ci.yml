@@ -23,7 +23,7 @@ pages:
     paths:
       - public
 #  rules:
-#    # This ensures that only pushes to the default branch will trigger a pages deploy
+#    # Only pushes to the default branch (main) will trigger a pages deploy
 #    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
 
 
