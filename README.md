@@ -1,7 +1,5 @@
 # **📜 Lorenc Bushati - Software Engineer**
 
-📍 **Switzerland** | 🔗 **[LinkedIn Profile](https://www.linkedin.com/in/lorenc-bushati)**
-
 ---
 
 ## **💼 Work Experience**
