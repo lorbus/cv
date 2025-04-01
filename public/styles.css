@@ -1,0 +1,36 @@
+body {
+  font-family: Arial,
+  sans-serif;
+  line-height: 1.6;
+  background-color: #dbe9df;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.tech-stack {
+  margin-bottom: -16px;
+}
+
+dl, tr {
+  font-weight: bold;
+}
+
+td {
+  min-width: 100px;
+}
+
+ul {
+  list-style-type: none;
+}
