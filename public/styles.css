@@ -1,6 +1,5 @@
 body {
-  font-family: Arial,
-  sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #dbe9df;
 }
@@ -10,9 +9,9 @@ h1, h2, h3 {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 70rem;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .section {
@@ -33,4 +32,8 @@ td {
 
 ul {
   list-style-type: none;
+}
+
+.center {
+  text-align: center;
 }
