@@ -146,10 +146,10 @@ JavaScript, AJAX, REST, Git, Gerrit, CentOS, Linux, Jira, Confluence, SCRUM.
 ---
 
 ## **🎖 Certifications**
-🏆 **ITIL® Foundation Certificate in IT Service Management** | AXELOS & PeopleCert.org | 📅 **2021**
-🏆 **Cyber Security Foundation Professional Certificate** | Certiprof.com | 📅 **2021**
-🏆 **Professional Scrum Master™ I (PSM I)** | Scrum.org | 📅 **2020**
-🏆 **1Z0-851 Java Standard Edition 6 Programmer Certified Professional Exam** | Oracle | 📅 **2013**
+🏆 **ITIL® Foundation Certificate in IT Service Management** | AXELOS & PeopleCert.org | 📅 **2021**\
+🏆 **Cyber Security Foundation Professional Certificate** | Certiprof.com | 📅 **2021**\
+🏆 **Professional Scrum Master™ I (PSM I)** | Scrum.org | 📅 **2020**\
+🏆 **1Z0-851 Java Standard Edition 6 Programmer Certified Professional Exam** | Oracle | 📅 **2013**\
 🏆 **Enhancing Education for the Longevity of Electronic Archives** | UNESCO | 📅 **2010**
 
 ---
