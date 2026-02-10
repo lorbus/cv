@@ -155,11 +155,11 @@ JavaScript, AJAX, REST, Git, Gerrit, CentOS, Linux, Jira, Confluence, SCRUM.
 ---
 
 ## **💡 Skills**
-- **Languages:** Java, Kotlin, Python, JavaScript, TypeScript, SQL, PL/SQL, Ruby on Rails, Node
+- **Languages:** Java, Kotlin, Python, JavaScript, TypeScript, SQL, PL/SQL, Ruby, Node
 - **Frameworks:** Spring Boot, Hibernate, Struts, Angular, React
 - **Databases:** Oracle, MS SQL Server, MongoDB, PostgreSQL, MySQL
-- **Cloud & DevOps:** Kubernetes, Docker, AWS, Jenkins, OpenShift, Jenkins, Maven, CI/CD
-- **Agile:** SCRUM, Kanban, SAFe, Waterfall, Jira
+- **Cloud & DevOps:** Kubernetes, Docker, AWS, Jenkins, OpenShift, Jenkins, Maven, CI/CD pipelines
+- **Agile:** SCRUM, Kanban, SAFe, Waterfall
 
 ---
 
