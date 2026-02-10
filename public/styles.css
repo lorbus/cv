@@ -1,4 +1,15 @@
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    min-height: 100vh;
     font-family: Arial, sans-serif;
     background: url("bckgrnd.jpg") top center no-repeat;
     padding: 10px;
@@ -41,4 +52,44 @@ td {
 
 ul {
     list-style-type: none;
+}
+
+.toc {
+    padding-left: 2rem;
+
+    div, ol {
+        margin: 0;
+        padding: 0;
+    }
+
+    div + ol, ol + div, div + div {
+        margin-top: 0.2rem;
+    }
+
+    li {
+        margin-bottom: 0.15rem;
+        counter-increment: job;
+    }
+
+    ol {
+        margin-top: 0;
+        counter-reset: job;
+        list-style: none;
+        padding-left: 2rem;
+    }
+
+    li a::before {
+        content: counter(job) ". ";
+        color: #4141fa;
+        font-weight: 600;
+    }
+}
+
+a {
+    font-weight: bold;
+    color: #4141fa;
+}
+
+a:visited {
+    color: #4141fa;
 }
