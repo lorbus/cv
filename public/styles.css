@@ -223,8 +223,7 @@ hr {
     }
 
     td {
-        display: block;
-        padding-bottom: 8px;
+        display: table-cell;
     }
 }
 
