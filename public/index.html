@@ -495,32 +495,32 @@
         <h3>Backend</h3>
 
         <div class="stack-grid">
-            <span>Java</span>
-            <span>Kotlin</span>
-            <span>Spring Boot</span>
-            <span>Hibernate</span>
-            <span>REST APIs</span>
+            <span>Java,</span>
+            <span>Kotlin,</span>
+            <span>Spring Boot,</span>
+            <span>Hibernate,</span>
+            <span>REST APIs,</span>
             <span>Microservices</span>
         </div>
 
         <h3>Frontend</h3>
 
         <div class="stack-grid">
-            <span>Angular</span>
-            <span>TypeScript</span>
-            <span>JavaScript</span>
-            <span>HTML</span>
+            <span>Angular,</span>
+            <span>TypeScript,</span>
+            <span>JavaScript,</span>
+            <span>HTML,</span>
             <span>CSS</span>
         </div>
 
         <h3>Cloud & DevOps</h3>
 
         <div class="stack-grid">
-            <span>Kubernetes</span>
-            <span>Docker</span>
-            <span>AWS</span>
-            <span>Jenkins</span>
-            <span>OpenShift</span>
+            <span>Kubernetes,</span>
+            <span>Docker,</span>
+            <span>AWS,</span>
+            <span>Jenkins,</span>
+            <span>OpenShift,</span>
             <span>CI/CD</span>
         </div>
 
@@ -642,8 +642,15 @@
             margin: 10,
             filename: 'Lorenc-Bushati-CV.pdf',
             image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: { scale: 2, useCORS: true },
-            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            html2canvas: {
+                scale: 2,
+                useCORS: true,
+                scrollY: 0,
+                scrollX: 0,
+                windowWidth: document.documentElement.scrollWidth
+            },
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+            pagebreak: { mode: ['css', 'legacy'] }
         };
 
         html2pdf().set(opt).from(element).save().then(() => {
