@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://lorbus.github.io/cv/sitemap.xml

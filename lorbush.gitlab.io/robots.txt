@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://lorbush.gitlab.io/cv/sitemap.xml
