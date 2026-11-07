@@ -37,20 +37,4 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://lorbush.gitlab.io/cv/de/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://lorbush.gitlab.io/cv/" />
     </url>
-    <url>
-        <loc>https://lorbush.gitlab.io/cv/cv.txt</loc>
-        <lastmod>2026-11-07</lastmod>
-    </url>
-    <url>
-        <loc>https://lorbush.gitlab.io/cv/it/cv.txt</loc>
-        <lastmod>2026-11-07</lastmod>
-    </url>
-    <url>
-        <loc>https://lorbush.gitlab.io/cv/fr/cv.txt</loc>
-        <lastmod>2026-11-07</lastmod>
-    </url>
-    <url>
-        <loc>https://lorbush.gitlab.io/cv/de/cv.txt</loc>
-        <lastmod>2026-11-07</lastmod>
-    </url>
 </urlset>
