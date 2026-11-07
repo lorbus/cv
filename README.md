@@ -1,167 +1,84 @@
-# **📜 Lorenc Bushati - Software Engineer**
+# Lorenc Bushati – Senior Full Stack Engineer / Team Lead
 
----
+Lugano, Switzerland · Swiss Permit C (no restrictions)
+Online CV: <https://lorbush.gitlab.io/cv/> · [LinkedIn](https://www.linkedin.com/in/lorenc-bushati) · [GitHub](https://github.com/lorbus) · [GitLab](https://gitlab.com/lorbush) · [Credly](https://www.credly.com/users/lorenc-bushati)
 
-## **💼 Work Experience**
+## Summary
 
----
+Senior Full Stack Software Engineer with 15+ years of experience delivering enterprise software for banking,
+fintech, telecom, aviation and the public sector in Switzerland and Italy. Core expertise in Java, Kotlin,
+Spring Boot, Angular and TypeScript, building REST APIs and microservices on Kubernetes, OpenShift and AWS.
+Hands-on leadership as stream lead and IT manager: mentoring, code review, sprint planning, vendor coordination
+and IT budgeting.
 
-1. ### **Full Stack Software Engineer**
-📅 **01/2022 – 09/2024**  
-🏢 **TechneValue GmbH - Pfäffikon, Switzerland**  
-👥 **Clients: Zühlke Engineering AG / Credit Suisse AG (UBS Group AG) - Zürich, Switzerland**
+## Experience
 
-- ✅ Team coordination
-- ✅ Development, maintenance, enhancement, and migration of the *my Solutions* portal, which offers investment 
-  solutions and enables designing, pricing, and trading structured products, hedging strategies, and standard FX transactions
+### Software Engineer – DB&L services, Bioggio, Switzerland (10/2025 – Present)
+Client: Avaloq
+- Customize and implement the Avaloq Banking Suite – Avaloq Core Platform (ACP) and Avaloq Front Platform (AFP) – for multiple financial-institution clients.
+- Deliver tailored solutions for core banking, wealth management and digital banking operations.
+- **Tech stack:** Java 21, Angular, Oracle DB, Kubernetes, Docker, OpenShift, Jenkins, Grafana, Liquibase, Helm
 
-**🛠 Tech Stack:**  
-```
-Java 11/17/21, Kotlin, SOAP, Tomcat, Angular, REST, JSON, SQL, MS SQL Server, Oracle DB, 
-PL/SQL, MongoDB, JPA, Hibernate, Spring, Maven, Gradle, Bitbucket, GitLab, OpenShift, 
-Docker, Kubernetes, Helm, Jenkins, Argo CD, Sonar, JFrog, Splunk, Prometheus, Grafana
-JUnit, TestNG,Cucumber, OpenAPI / Swagger, SCRUM.
-```
----
+### Full Stack Software Engineer – OneFirewall Alliance, Lugano, Switzerland (10/2024 – 08/2025)
+- Integrated the OneFirewall platform with multi-vendor network environments, including Cisco and Juniper devices.
+- Designed and maintained REST APIs for log ingestion, export, observability and health monitoring.
+- Built CI/CD automation pipelines and Angular dashboards (dynamic tables, graphs, technical documentation).
+- **Tech stack:** Java, Kotlin, Angular, Spring, Kubernetes, Docker, MongoDB, Jenkins, Prometheus, Grafana
 
-2. ### **IT Manager / Full Stack Software Engineer**
-📅 **01/2018 – 08/2021**  
-🏢 **Union of Financial Corners (Switzerland) - Geneva, Switzerland**
+### Full Stack Software Engineer / Stream Lead – TechneValue, Zürich, Switzerland (01/2022 – 09/2024)
+Client: Credit Suisse (UBS Group), via Zühlke Engineering
+- Led a team of 2 engineers through the enhancement and migration of investment platforms for structured products and FX trading, with on-time delivery and zero disruption to trading operations.
+- Developed the “my Solutions” portal, where clients design, price and trade structured products, hedging strategies and FX transactions.
+- **Tech stack:** Java, Kotlin, Angular, Spring Boot, OpenShift, Kubernetes, Argo CD, MongoDB, Oracle DB, Swagger
 
-- ✅ Designed, integrated, and implemented software to automate and optimize back-office tools and applications
-- ✅ Coordinated with development teams, service providers, and external IT auditors to ensure system maintenance and quality assurance
+### IT Manager – Union of Financial Corners, Geneva, Switzerland (01/2018 – 08/2021)
+- Designed, integrated and implemented back-office tools and enterprise applications to automate internal processes.
+- Coordinated software teams, suppliers, service providers and external IT auditors.
+- Responsible for IT budget management, mentoring, code review and sprint planning.
+- **Tech stack:** Java, Spring Boot, Angular, Python, Docker, Jenkins, SQL Server, PostgreSQL, MongoDB, Swagger
 
-**🛠 Tech Stack:**
-```
-Java 8/11, JBOSS, IIS 8, SOAP, Tomcat, REST, JSON, SQL, MS SQL Server, 
-MongoDB, PostgreSQL, Hibernate, Spring Boot, Python, Maven, Git, 
-Docker, Sonar, Jenkins, JUnit, Angular, OpenAPI / Swagger, SCRUM.
-```
----
+### Full Stack Software Engineer – Capgemini Engineering (formerly Altran), Genoa, Italy (01/2016 – 01/2018)
+Client: Ericsson
+- Developed and maintained Ericsson Network Manager (ENM), a high-availability telecom network management platform.
+- Worked within multinational agile teams across the U.S., Ireland, India and Italy.
+- **Tech stack:** Java EE, Spring Boot, Docker, Kubernetes, Jenkins, Hibernate, JUnit, Selenium, Linux, REST APIs
 
-3. ### **Full Stack Software Engineer**
-📅 **01/2016 – 01/2018**  
-🏢 **Altran - Genoa, Italy**  
-👥 **Client: Ericsson - Genoa, Italy**
+### Full Stack Software Developer – Key Partner, Rome, Italy (09/2010 – 12/2015)
+IT consultant on client projects:
+- **Acea** (04/2015 – 12/2015): Portale Acea Distribuzione (PAD) / Areti, electricity-sector operations platform. Java EE, JPA, Hibernate, SOAP, REST, Angular, SQL Server.
+- **NTT DATA Italia / Fideuram** (06/2014 – 03/2015): “Fideuram Online” and “Alfabeto Fideuram” banking and trading platforms. Java, Struts, JSP, Angular, Oracle, WebLogic.
+- **Brandon Ferrari** (03/2014 – 06/2014): B2B flash-sales e-commerce platform. Ruby on Rails, Spree, AWS, PostgreSQL, Redis, Heroku.
+- **Acea** (11/2013 – 03/2014): SEPA direct-debit exchange systems with SIA SSB. Java EE, JBoss, REST, SOAP, SQL Server.
+- **HP / Fideuram** (02/2012 – 11/2013): “Consulenza Avanzata SEI” advisory and investment reporting platform. Java, Spring, GWT, JPA, Hibernate.
+- **Reply / Alitalia** (06/2011 – 01/2012): MilleMiglia customer loyalty system. Java EE, GWT, REST, Oracle, PL/SQL.
+- **Glamoo** (09/2010 – 06/2011): e-commerce flash-sales platform. Java, Spring, JSP, Hibernate, MySQL, AWS.
 
-- ✅ Developed and maintained the *Ericsson Network Manager (ENM)*, a next-generation unified network management 
-  system that enhances network performance and reduces operational costs
+### Academic Internship – IRPPS-CNR, Rome, Italy (09/2009 – 02/2010)
+- Developed and maintained institutional web applications. PHP, JavaScript, REST.
 
-**🛠 Tech Stack:**  
-```
-Java EE, EJB, JPA, Hibernate, Spring Boot, Spring Security, Python, JUnit, 
-Mockito, Arquillian, Jasmine, Selenium WebDriver, Docker, Kubernetes, 
-Maven, Jenkins, Sonar, XML, SQL, MS SQL Server, Versant, HTML, CSS, 
-JavaScript, AJAX, REST, Git, Gerrit, CentOS, Linux, Jira, Confluence, SCRUM.
-```
----
+## Skills
 
-### 4. **Full Stack Software Developer**
-📅 **09/2010 – 12/2015**  
-🏢 **Key Partner - Rome, Italy**
+- **Languages:** Java (8–21), Kotlin, TypeScript, JavaScript, SQL, PL/SQL, Python, Ruby, PHP
+- **Backend:** Spring Boot, Spring Security, Java EE / Jakarta EE, Hibernate / JPA, REST, SOAP, Microservices, OpenAPI / Swagger
+- **Frontend:** Angular, TypeScript, HTML, CSS, GWT, jQuery, Bootstrap
+- **Cloud & DevOps:** Kubernetes, OpenShift, Docker, AWS, Helm, Argo CD, Jenkins, CI/CD, Git, GitLab, Maven, Gradle, SonarQube, Prometheus, Grafana, Splunk
+- **Databases:** Oracle, PostgreSQL, Microsoft SQL Server, MongoDB, MySQL, Redis, Liquibase
+- **Testing:** JUnit, Mockito, TestNG, Cucumber, Cypress, Selenium, RestAssured, Postman
+- **Agile & leadership:** Scrum, Kanban, SAFe; mentoring, code review, sprint planning, IT budgeting, vendor and IT-audit coordination
 
+## Education
 
-  > **👥 <u>Client Projects:</u>**
- 
-- **4.1. ACEA Spa - Rome, Italy**
-  : 📅 **(04/2015 - 12/2015)**\
-    ✅ Developed *"Portale Acea Distribuzione"* (PAD) for managing operational relations in the electricity sector.
+- **Bachelor’s Degree in Computer Engineering** – Roma Tre University, Rome, Italy (2010)
 
-  🛠 **Tech Stack:**
-  ```
-  Java EE, JSP, JPA, Hibernate, Web Services, SOAP, REST, Angular, 
-  Apache Server, MS SQL Server, Git, Slack, Trello, SCRUM.
-  ```
----
+## Certifications
 
-  
-- **4.2. NTT Data Italia / Fideuram Bank - Rome, Italy** 
-  : 📅 **(06/2014 - 03/2015)**\
-    ✅ Developed and maintained *Fideuram Online*, an online banking service.
-  
-  🛠 **Tech Stack:** 
-  ```
-  Java, Struts, JSP, Angular, JUnit, JSON, 
-  SQL, XML, BEA WebLogic, Oracle, Git, Jira, Confluence.
-   ```
----
+- ITIL® 4 Foundation – PeopleCert / AXELOS (2021)
+- Cyber Security Foundation Professional Certificate – Certiprof (2021)
+- Data Science Orientation – Coursera / IBM (2021)
+- Professional Scrum Master™ I (PSM I) – Scrum.org (2020)
+- Oracle Certified Professional, Java SE 6 Programmer – Oracle (2013)
+- Enhancing Education for the Longevity of Electronic Archives – UNESCO / INIMA (2010)
 
-- **4.3. Brandon Ferrari - Milan, Italy** 
-  : 📅 **(03/2014 - 06/2014)**\
-    ✅ Built an *e-commerce site* for Brandon Ferrari, connecting brands with flash sales sites.
-  
-  🛠 **Tech Stack:** 
-  ```  
-  Ruby on Rails, Spree Commerce, Bootstrap, JQuery, JSON, AJAX, 
-  PostgreSQL, AWS, Redis, Heroku, Git, Bitbucket, Trello.
-  ```
----
+## Languages
 
-- **4.4. ACEA Spa - Rome, Italy** 
-  : 📅 **(11/2013 - 03/2014)**\
-    ✅ Re-engineered an application for monitoring financial transactions in the SEPA process.
-  
-  🛠 **Tech Stack:** 
-  ```  
-  Java EE, JBoss, JSON, HTML5, CSS3, AJAX, REST, Tomcat, SVN.
-  ```
----
-
-- **4.5. Hewlett Packard Enterprise / Fideuram Bank - Rome, Italy** 
-  : 📅 **(02/2012 - 11/2013)**\
-    ✅ Developed *Consulenza Avanzata SEI*, an investment advisory platform for *Fideuram Bank*.
-  
-  🛠 **Tech Stack:** 
-  ```   
-  Java, Spring, GWT, GXT, EJB, JPA, Hibernate, jQuery, JavaScript, MS SQL Server, XML, CSS.
-  ```
----  
-
-- **4.6. Reply S.p.A. / Alitalia - Rome, Italy** 
-  : 📅 **(06/2011 - 01/2012)**\
-    ✅ Migrated and maintained the *MilleMiglia CLS* (Customer Loyalty Service) for *Alitalia*.
-  
-  🛠 **Tech Stack:** 
-  ```  
-  Java EE, GWT, TSQL, PL/SQL, XML, CSS, HTML, AJAX, JavaScript, Tomcat.
-  ```
----
-
-- **4.7. Glamoo - Rome, Italy / London, UK** 
-  : 📅 **(09/2010 - 06/2011)**\
-    ✅ Developed *Glamoo*, an e-commerce platform for local deals and services.
-  
-  🛠 **Tech Stack:** 
-  ```   
-  Java, EJB, Spring, JSP, JSF, JPA, Hibernate, XML, Web Services, SOAP, REST, 
-  Tomcat, MySQL, JSON, JavaScript, Tomcat, Maven, JUnit, Jira, Confluence.
-  ```
----
-
-
-## **📚 Education**
-🎓 **Bachelor’s Degree in Computer Engineering**  
-📍  **Università degli Studi di Roma Tre** | 📅 **2010**
-
----
-
-## **🎖 Certifications**
-🏆 **ITIL® Foundation Certificate in IT Service Management** | AXELOS & PeopleCert.org | 📅 **2021**\
-🏆 **Cyber Security Foundation Professional Certificate** | Certiprof.com | 📅 **2021**\
-🏆 **Professional Scrum Master™ I (PSM I)** | Scrum.org | 📅 **2020**\
-🏆 **1Z0-851 Java Standard Edition 6 Programmer Certified Professional Exam** | Oracle | 📅 **2013**\
-🏆 **Enhancing Education for the Longevity of Electronic Archives** | UNESCO | 📅 **2010**
-
----
-
-## **💡 Skills**
-- **Languages:** Java, Kotlin, Python, JavaScript, TypeScript, SQL, PL/SQL, Ruby, Node
-- **Frameworks:** Spring Boot, Hibernate, Struts, Angular, React
-- **Databases:** Oracle, MS SQL Server, MongoDB, PostgreSQL, MySQL
-- **Cloud & DevOps:** Kubernetes, Docker, AWS, Jenkins, OpenShift, Jenkins, Maven, CI/CD pipelines
-- **Agile:** SCRUM, Kanban, SAFe, Waterfall
-
----
-
-## **📩 Contact**
-🔗 **[LinkedIn Profile](https://www.linkedin.com/in/lorenc-bushati)**  
+Italian (native) · Albanian (native) · English (C1) · French (B2) · German (A2)
