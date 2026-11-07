@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-print-title="Lorenc Bushati - CV">
 <head>
     <script>
         // Only redirect unknown mirrors; GitHub and GitLab Pages both serve the CV.
@@ -35,6 +35,11 @@
     <link rel="canonical" href="https://lorbush.gitlab.io/cv/" />
     <link rel="icon" type="image/png" href="cv.png" />
     <link rel="alternate" type="text/plain" href="cv.txt" title="Plain-text CV" />
+    <link rel="alternate" hreflang="en" href="https://lorbush.gitlab.io/cv/" />
+    <link rel="alternate" hreflang="it" href="https://lorbush.gitlab.io/cv/it/" />
+    <link rel="alternate" hreflang="fr" href="https://lorbush.gitlab.io/cv/fr/" />
+    <link rel="alternate" hreflang="de" href="https://lorbush.gitlab.io/cv/de/" />
+    <link rel="alternate" hreflang="x-default" href="https://lorbush.gitlab.io/cv/" />
 
     <meta property="og:title" content="Lorenc Bushati | Senior Full Stack Engineer / Team Lead" />
     <meta
@@ -47,6 +52,9 @@
     <meta property="profile:last_name" content="Bushati" />
     <meta property="og:url" content="https://lorbush.gitlab.io/cv/" />
     <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="it_CH" />
+    <meta property="og:locale:alternate" content="fr_CH" />
+    <meta property="og:locale:alternate" content="de_CH" />
     <meta property="og:site_name" content="Lorenc Bushati — CV" />
     <meta name="twitter:card" content="summary" />
 
@@ -54,6 +62,7 @@
         {
             "@context": "https://schema.org",
             "@type": "ProfilePage",
+            "inLanguage": "en",
             "url": "https://lorbush.gitlab.io/cv/",
             "dateModified": "2026-11-07",
             "mainEntity": {
@@ -126,7 +135,13 @@
         <a href="#education">Education</a>
         <a href="#certifications">Certifications</a>
         <a href="#languages">Languages</a>
-        <button class="theme-toggle" id="theme" type="button" aria-label="Switch colour theme">Dark</button>
+        <button class="theme-toggle" id="theme" type="button" aria-label="Switch to dark theme">☾ Dark</button>
+        <span class="langs" role="group" aria-label="Language">
+            <a href="./" hreflang="en" lang="en" aria-current="page">EN</a>
+            <a href="it/" hreflang="it" lang="it">IT</a>
+            <a href="fr/" hreflang="fr" lang="fr">FR</a>
+            <a href="de/" hreflang="de" lang="de">DE</a>
+        </span>
     </div>
 </nav>
 
@@ -591,42 +606,6 @@
     <a class="back" href="#top">Back to top</a>
 </footer>
 
-<script>
-    const pageTitle = document.title;
-    document.getElementById("pdf").addEventListener("click", function () {
-        window.print();
-    });
-    window.addEventListener("beforeprint", function () {
-        document.title = "Lorenc Bushati - CV";
-    });
-    window.addEventListener("afterprint", function () {
-        document.title = pageTitle;
-    });
-
-    // Light / dark toggle: OS preference by default, user choice remembered
-    (function () {
-        const root = document.documentElement;
-        const btn = document.getElementById("theme");
-        const osDark = window.matchMedia("(prefers-color-scheme: dark)");
-        const isDark = () => (root.getAttribute("data-theme") || (osDark.matches ? "dark" : "light")) === "dark";
-        const render = () => {
-            const dark = isDark();
-            btn.textContent = dark ? "☀ Light" : "☾ Dark";
-            btn.setAttribute("aria-pressed", String(dark));
-            btn.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
-            document.querySelectorAll('meta[name="theme-color"]').forEach(function (m) {
-                m.setAttribute("content", dark ? "#111219" : "#f7f7fb");
-            });
-        };
-        btn.addEventListener("click", function () {
-            const next = isDark() ? "light" : "dark";
-            root.setAttribute("data-theme", next);
-            try { localStorage.setItem("theme", next); } catch (e) {}
-            render();
-        });
-        osDark.addEventListener("change", render);
-        render();
-    })();
-</script>
+<script src="site.js"></script>
 </body>
 </html>

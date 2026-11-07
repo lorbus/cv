@@ -1,0 +1,194 @@
+﻿LORENC BUSHATI
+Senior Full Stack Engineer / Team Lead
+
+Domicile :                 Lugano, Suisse
+Autorisation de travail :  Permis C, sans restriction
+CV en ligne :              https://lorbush.gitlab.io/cv/fr/
+LinkedIn :                 https://www.linkedin.com/in/lorenc-bushati
+GitHub :                   https://github.com/lorbus
+GitLab :                   https://gitlab.com/lorbush
+Certifications :           https://www.credly.com/users/lorenc-bushati
+
+
+PROFIL
+------
+Senior Full Stack Software Engineer avec plus de 15 ans d'expérience dans la
+réalisation de logiciels d'entreprise pour la banque, la fintech, les
+télécommunications, l'aviation et le secteur public, en Suisse et en Italie.
+Expertise principale en Java, Kotlin, Spring Boot, Angular et TypeScript, avec
+le développement d'API REST et de microservices déployés sur Kubernetes,
+OpenShift et AWS.
+
+Expérience métier en core banking et gestion de fortune (Avaloq), produits
+structurés et trading FX (Credit Suisse / UBS), gestion de réseaux de
+télécommunication (Ericsson) et programmes de fidélité aérienne (Alitalia).
+Leadership opérationnel en tant que stream lead et IT manager : mentorat,
+revue de code, planification de sprints, coordination des fournisseurs et
+gestion du budget informatique, ainsi que DevOps et automatisation CI/CD au
+sein d'équipes agiles et distribuées.
+
+
+EXPÉRIENCE PROFESSIONNELLE
+--------------------------
+
+Software Engineer
+DB&L services, Bioggio, Suisse | 10/2025 - aujourd'hui
+Client : Avaloq
+- Personnalisation et mise en œuvre de l'Avaloq Banking Suite - Avaloq Core
+  Platform (ACP) et Avaloq Front Platform (AFP) - pour plusieurs
+  établissements financiers clients.
+- Réalisation de solutions sur mesure pour le core banking, la gestion de
+  fortune et la banque numérique, développées en Java 21 et Angular sur
+  Oracle DB.
+- Livraison des évolutions via des déploiements conteneurisés sur Kubernetes
+  et OpenShift, avec Helm, des pipelines Jenkins, des migrations de base de
+  données Liquibase et un monitoring Grafana.
+Stack technique : Java 21, Angular, Oracle DB, Kubernetes, Docker, OpenShift,
+Jenkins, Grafana, Liquibase, Helm
+
+Full Stack Software Engineer
+OneFirewall Alliance, Lugano, Suisse | 10/2024 - 08/2025
+- Intégration de la plateforme OneFirewall dans des environnements réseau
+  multi-constructeurs, notamment des équipements Cisco et Juniper.
+- Conception et maintenance d'API REST Spring en Java / Kotlin pour
+  l'ingestion et l'export de logs, l'observabilité et la surveillance de
+  l'état des services, avec MongoDB.
+- Mise en place de pipelines d'automatisation CI/CD dans Jenkins et
+  développement de tableaux de bord Angular (tableaux dynamiques, graphiques,
+  documentation technique) pour visualiser les résultats, avec Prometheus et
+  Grafana pour les métriques.
+Stack technique : Java, Kotlin, Angular, Spring, Kubernetes, Docker, MongoDB,
+Jenkins, Prometheus, Grafana
+
+Full Stack Software Engineer / Stream Lead
+TechneValue, Zurich, Suisse | 01/2022 - 09/2024
+Client : Credit Suisse (UBS Group), via Zühlke Engineering
+- Direction d'une équipe de 2 ingénieurs pour l'évolution et la migration de
+  plateformes d'investissement dédiées aux produits structurés et au trading
+  FX, avec des livraisons dans les délais et sans aucune interruption des
+  opérations de trading.
+- Développement d'applications financières d'entreprise prenant en charge les
+  flux quotidiens de trading et de règlement, dont le portail
+  « my Solutions », où les clients conçoivent, valorisent et négocient des
+  produits structurés, des stratégies de couverture et des transactions FX.
+- Développement de services Spring Boot en Java / Kotlin et de front-ends
+  Angular, déployés sur OpenShift et Kubernetes avec Argo CD (GitOps) et
+  documentés avec OpenAPI / Swagger.
+Stack technique : Java, Kotlin, Angular, Spring Boot, OpenShift, Kubernetes,
+Argo CD, MongoDB, Oracle DB, Swagger
+
+IT Manager
+Union of Financial Corners, Genève, Suisse | 01/2018 - 08/2021
+- Conception, intégration et mise en œuvre d'outils de back-office et
+  d'applications d'entreprise pour automatiser et optimiser les processus
+  internes.
+- Coordination des équipes de développement, fournisseurs, sous-traitants,
+  prestataires de services et auditeurs informatiques externes afin d'assurer
+  la maintenance, l'assurance qualité et l'intégration de nouveaux produits,
+  services et processus.
+- Responsable de la gestion du budget informatique, du mentorat, de la revue
+  de code et de la planification des sprints.
+Stack technique : Java, Spring Boot, Angular, Python, Docker, Jenkins,
+SQL Server, PostgreSQL, MongoDB, Swagger
+
+Full Stack Software Engineer
+Capgemini Engineering (anciennement Altran), Gênes, Italie | 01/2016 - 01/2018
+Client : Ericsson
+- Développement et maintenance d'Ericsson Network Manager (ENM), plateforme
+  unifiée de nouvelle génération à haute disponibilité pour la gestion des
+  réseaux de télécommunication.
+- Travail au sein d'équipes agiles multinationales aux États-Unis, en
+  Irlande, en Inde et en Italie.
+Stack technique : Java EE, Spring Boot, Docker, Kubernetes, Jenkins,
+Hibernate, JUnit, Selenium, Linux, API REST
+
+Full Stack Software Developer
+Key Partner, Rome, Italie | 09/2010 - 12/2015
+Consultant IT chez Key Partner, affecté aux projets clients suivants :
+- Acea (04/2015 - 12/2015) : Migration, développement et maintenance du
+  Portale Acea Distribuzione (PAD) / Areti, plateforme de gestion des
+  relations opérationnelles dans le secteur de l'électricité.
+  Stack technique : Java EE, JSP, JPA, Hibernate, SOAP, REST, Angular,
+  MS SQL Server, Git, Scrum
+- NTT DATA Italia / Fideuram (06/2014 - 03/2015) : Développement et
+  maintenance des plateformes « Fideuram Online » et « Alfabeto Fideuram »
+  pour les opérations bancaires et les services de trading.
+  Stack technique : Java, Struts, JSP, Angular, Oracle, JUnit, WebLogic
+- Brandon Ferrari (03/2014 - 06/2014) : Développement d'une plateforme
+  e-commerce reliant des marques à des sites B2B de ventes flash.
+  Stack technique : Ruby on Rails, Spree, AWS, PostgreSQL, Redis, Heroku
+- Acea (11/2013 - 03/2014) : Réingénierie des systèmes d'échange financier
+  pour les flux de prélèvement SEPA entre les sociétés du groupe Acea et
+  SIA SSB.
+  Stack technique : Java EE, JBoss, REST, SOAP, SQL Server, SVN
+- HP / Fideuram (02/2012 - 11/2013) : Développement de plateformes de conseil
+  et de reporting d'investissement pour les conseillers financiers
+  (« Consulenza Avanzata SEI »).
+  Stack technique : Java, Spring, GWT, JPA, Hibernate, MS SQL Server
+- Reply / Alitalia (06/2011 - 01/2012) : Migration, développement et
+  maintenance du système de fidélisation clients MilleMiglia (CLS).
+  Stack technique : Java EE, GWT, REST, Oracle, PL/SQL
+- Glamoo (09/2010 - 06/2011) : Développement et maintenance d'une plateforme
+  e-commerce de ventes flash.
+  Stack technique : Java, Spring, JSP, Hibernate, MySQL, AWS
+
+Stage universitaire
+IRPPS-CNR, Rome, Italie | 09/2009 - 02/2010
+- Développement et maintenance d'applications web institutionnelles, y
+  compris l'implémentation de fonctionnalités et l'optimisation des
+  performances.
+Stack technique : PHP, HTML, CSS, JavaScript, REST, Git
+
+
+COMPÉTENCES
+-----------
+Langages :              Java (8-21), Kotlin, TypeScript, JavaScript, SQL,
+                        PL/SQL, Python, Ruby, PHP
+Backend :               Spring Boot, Spring Security, Java EE / Jakarta EE,
+                        Hibernate / JPA, API REST et SOAP, microservices,
+                        OpenAPI / Swagger, Tomcat, JBoss, WebLogic
+Frontend :              Angular, TypeScript, JavaScript, HTML, CSS, GWT,
+                        jQuery, Bootstrap
+Cloud et DevOps :       Kubernetes, OpenShift, Docker, AWS, Helm,
+                        Argo CD (GitOps), Jenkins, CI/CD, Git, GitHub, GitLab,
+                        Bitbucket, Maven, Gradle, SonarQube, Linux,
+                        Prometheus, Grafana, Splunk
+Bases de données :      Oracle, PostgreSQL, Microsoft SQL Server, MongoDB,
+                        MySQL, Redis, Liquibase
+Tests :                 JUnit, Mockito, TestNG, Cucumber, Cypress, Selenium,
+                        RestAssured, Postman, SoapUI
+Domaines :              Core banking et gestion de fortune (Avaloq), produits
+                        structurés et trading FX, gestion de réseaux de
+                        télécommunication, cybersécurité / threat
+                        intelligence, énergie et services publics,
+                        e-commerce, fidélisation dans le transport aérien
+Agilité et leadership : Scrum, Kanban, Lean, SAFe ; coordination d'équipe,
+                        mentorat, revue de code, planification de sprints,
+                        budget informatique, coordination des fournisseurs et
+                        des audits informatiques, reprise après sinistre et
+                        continuité des activités
+
+
+FORMATION
+---------
+Bachelor en génie informatique (Laurea in Ingegneria Informatica)
+Université Roma Tre, Rome, Italie | 05/2010
+
+
+CERTIFICATIONS
+--------------
+2021  ITIL Foundation Certificate in IT Service Management - PeopleCert / AXELOS
+2021  Cyber Security Foundation Professional Certificate - Certiprof
+2021  Data Science Orientation - Coursera / IBM
+2020  Professional Scrum Master I (PSM I) - Scrum.org
+2013  Oracle Certified Professional, Java SE 6 Programmer - Oracle
+2010  Enhancing Education for the Longevity of Electronic Archives - UNESCO / INIMA
+
+
+LANGUES
+-------
+Italien    Langue maternelle
+Albanais   Langue maternelle
+Anglais    Courant (C1)
+Français   Intermédiaire (B2)
+Allemand   Notions de base (A2)

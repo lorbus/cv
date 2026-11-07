@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="de-CH" data-print-title="Lorenc Bushati - Lebenslauf">
+<head>
+    <script>
+        // Only redirect unknown mirrors; GitHub and GitLab Pages both serve the CV.
+        var allowedHosts = ["lorbush.gitlab.io", "lorbus.github.io", "localhost", "127.0.0.1", ""];
+        if (allowedHosts.indexOf(location.hostname) === -1) {
+            location.replace("https://lorbush.gitlab.io/cv/de/" + location.hash);
+        }
+        // apply saved theme before first paint (no flash)
+        try {
+            var savedTheme = localStorage.getItem("theme");
+            if (savedTheme === "light" || savedTheme === "dark") {
+                document.documentElement.setAttribute("data-theme", savedTheme);
+            }
+        } catch (e) {}
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="../styles.css" rel="stylesheet" />
+
+    <title>Lorenc Bushati | Senior Full Stack Engineer (Java, Angular) – Lugano, Schweiz</title>
+    <meta
+            name="description"
+            content="Lorenc Bushati – Senior Full Stack Engineer / Team Lead in Lugano, Schweiz (Niederlassungsbewilligung C). Über 15 Jahre Erfahrung in der Entwicklung von Unternehmenssystemen für Banken, Fintech, Telekommunikation und Luftfahrt mit Java, Spring Boot, Angular, Kubernetes, OpenShift und AWS."
+    />
+    <meta name="author" content="Lorenc Bushati" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f7f7fb" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#111219" media="(prefers-color-scheme: dark)" />
+    <link rel="canonical" href="https://lorbush.gitlab.io/cv/de/" />
+    <link rel="icon" type="image/png" href="../cv.png" />
+    <link rel="alternate" type="text/plain" href="cv.txt" title="Lebenslauf (Text)" />
+    <link rel="alternate" hreflang="en" href="https://lorbush.gitlab.io/cv/" />
+    <link rel="alternate" hreflang="it" href="https://lorbush.gitlab.io/cv/it/" />
+    <link rel="alternate" hreflang="fr" href="https://lorbush.gitlab.io/cv/fr/" />
+    <link rel="alternate" hreflang="de" href="https://lorbush.gitlab.io/cv/de/" />
+    <link rel="alternate" hreflang="x-default" href="https://lorbush.gitlab.io/cv/" />
+
+    <meta property="og:title" content="Lorenc Bushati | Senior Full Stack Engineer / Team Lead" />
+    <meta
+            property="og:description"
+            content="Senior Full Stack Engineer in der Schweiz: Java, Spring Boot, Angular, Kubernetes, OpenShift, AWS. Über 15 Jahre in Banking, Fintech, Telekommunikation und Luftfahrt."
+    />
+    <meta property="og:image" content="https://lorbush.gitlab.io/cv/cv.png" />
+    <meta property="og:type" content="profile" />
+    <meta property="profile:first_name" content="Lorenc" />
+    <meta property="profile:last_name" content="Bushati" />
+    <meta property="og:url" content="https://lorbush.gitlab.io/cv/de/" />
+    <meta property="og:locale" content="de_CH" />
+    <meta property="og:site_name" content="Lorenc Bushati — CV" />
+    <meta name="twitter:card" content="summary" />
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ProfilePage",
+            "inLanguage": "de-CH",
+            "url": "https://lorbush.gitlab.io/cv/de/",
+            "dateModified": "2026-11-07",
+            "mainEntity": {
+                "@type": "Person",
+                "@id": "https://lorbush.gitlab.io/cv/#person",
+                "name": "Lorenc Bushati",
+                "jobTitle": "Senior Full Stack Engineer / Team Lead",
+                "description": "Senior Full Stack Software Engineer und Team Lead mit über 15 Jahren Erfahrung in der Entwicklung von Unternehmenssystemen für Banken, Fintech, Telekommunikation, Luftfahrt und den öffentlichen Sektor, mit Java, Spring Boot, Angular, Kubernetes, OpenShift und AWS.",
+                "url": "https://lorbush.gitlab.io/cv/de/",
+                "image": "https://lorbush.gitlab.io/cv/cv.png",
+                "address": { "@type": "PostalAddress", "addressLocality": "Lugano", "addressRegion": "Tessin", "addressCountry": "CH" },
+                "sameAs": [
+                    "https://www.linkedin.com/in/lorenc-bushati",
+                    "https://github.com/lorbus",
+                    "https://gitlab.com/lorbush",
+                    "https://www.credly.com/users/lorenc-bushati"
+                ],
+                "worksFor": { "@type": "Organization", "name": "DB&L services", "url": "https://dblsa.ch" },
+                "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universität Roma Tre", "url": "https://www.uniroma3.it/en" },
+                "knowsLanguage": ["it", "sq", "en", "fr", "de"]
+            }
+        }
+    </script>
+</head>
+
+<body>
+<a class="skip" href="#work">Zur Berufserfahrung</a>
+
+<nav aria-label="Abschnitte">
+    <div class="wrap">
+        <a href="#about">Profil</a>
+        <a href="#work">Berufserfahrung</a>
+        <a href="#skills">Kenntnisse</a>
+        <a href="#education">Ausbildung</a>
+        <a href="#certifications">Zertifikate</a>
+        <a href="#languages">Sprachen</a>
+        <button class="theme-toggle" id="theme" type="button" aria-label="Zum dunklen Design wechseln"
+                data-to-dark="☾ Dunkel" data-to-light="☀ Hell"
+                data-aria-dark="Zum dunklen Design wechseln" data-aria-light="Zum hellen Design wechseln">☾ Dunkel</button>
+        <span class="langs" role="group" aria-label="Sprache">
+            <a href="../" hreflang="en" lang="en">EN</a>
+            <a href="../it/" hreflang="it" lang="it">IT</a>
+            <a href="../fr/" hreflang="fr" lang="fr">FR</a>
+            <a href="./" hreflang="de" lang="de" aria-current="page">DE</a>
+        </span>
+    </div>
+</nav>
+
+<header class="wrap hero" id="top">
+    <h1>Lorenc Bushati</h1>
+    <p class="role">Senior Full Stack Engineer / Team Lead</p>
+    <p class="lead">
+        Über 15 Jahre Entwicklung von Unternehmenssoftware in den Bereichen Banking, Telekommunikation, Luftfahrt
+        und öffentliche Verwaltung – mit Java, Spring Boot, Angular, Kubernetes, AWS und Cloud-nativen
+        Architekturen.
+    </p>
+
+    <ul class="links">
+        <li><a href="https://www.linkedin.com/in/lorenc-bushati" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/lorbus" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://gitlab.com/lorbush" target="_blank" rel="noopener noreferrer">GitLab</a></li>
+        <li><a href="cv.txt">Nur Text</a></li>
+        <li><button class="btn" id="pdf" type="button">Als PDF speichern</button></li>
+    </ul>
+    <p class="print-only">
+        linkedin.com/in/lorenc-bushati, github.com/lorbus, gitlab.com/lorbush, lorbush.gitlab.io/cv/de
+    </p>
+
+    <dl class="facts">
+        <dt>Wohnort</dt>
+        <dd>Lugano, Schweiz</dd>
+        <dt>Arbeitsbewilligung</dt>
+        <dd>Niederlassungsbewilligung C, keine Einschränkungen</dd>
+        <dt>Branchen</dt>
+        <dd>Banking, Telekommunikation, Luftfahrt, öffentlicher Sektor</dd>
+        <dt>Sprachen</dt>
+        <dd>Italienisch, Albanisch, Englisch, Französisch, Deutsch</dd>
+    </dl>
+</header>
+
+<main>
+    <section class="wrap about" id="about">
+        <h2>Profil</h2>
+        <p>
+            Senior Full Stack Software Engineer (Senior Softwareentwickler) mit über 15 Jahren Erfahrung in der
+            Umsetzung von Unternehmenssoftware für Banken, Fintech, Telekommunikation, Luftfahrt und den
+            öffentlichen Sektor in der Schweiz und in Italien. Kernkompetenzen in Java, Kotlin, Spring Boot,
+            Angular und TypeScript sowie in der Entwicklung von REST-APIs und Microservices auf Kubernetes,
+            OpenShift und AWS.
+        </p>
+        <p>
+            Fachliche Erfahrung in Core Banking und Wealth Management (Avaloq), strukturierten Produkten und
+            FX-Handel (Credit Suisse / UBS), Netzwerkmanagement in der Telekommunikation (Ericsson) und
+            Kundenbindungsprogrammen in der Luftfahrt (Alitalia). Praktische Führungserfahrung als Stream Lead
+            und IT-Manager: Mentoring, Code Reviews, Sprint-Planung, Lieferantenkoordination und IT-Budgetierung
+            sowie DevOps und CI/CD-Automatisierung in agilen, verteilten Teams.
+        </p>
+    </section>
+
+    <section class="wrap" id="work">
+        <h2>Berufserfahrung</h2>
+
+        <div class="row" id="work1">
+            <div class="when">
+                <time datetime="2025-10">10/2025</time> – heute
+                <span class="where">
+                    <a href="https://dblsa.ch" target="_blank" rel="noopener noreferrer">DB&amp;L services</a>
+                </span>
+                Bioggio, Schweiz
+            </div>
+            <div>
+                <h3>Software Engineer</h3>
+                <p class="meta">
+                    Kunde:
+                    <a href="https://www.avaloq.com" target="_blank" rel="noopener noreferrer">Avaloq</a>
+                </p>
+                <ul class="b">
+                    <li>
+                        Anpassung und Implementierung der Avaloq Banking Suite – Avaloq Core Platform (ACP) und
+                        Avaloq Front Platform (AFP) – für mehrere Finanzinstitute.
+                    </li>
+                    <li>
+                        Umsetzung massgeschneiderter Lösungen für Core Banking, Wealth Management und Digital
+                        Banking mit Java 21 und Angular auf Oracle DB.
+                    </li>
+                    <li>
+                        Auslieferung von Änderungen über containerisierte Deployments auf Kubernetes und OpenShift
+                        mit Helm, Jenkins-Pipelines, Liquibase-Datenbankmigrationen und Grafana-Monitoring.
+                    </li>
+                </ul>
+                <p class="stack">
+                    <b>Tech-Stack:</b> Java 21, Angular, Oracle DB, Kubernetes, Docker, OpenShift, Jenkins,
+                    Grafana, Liquibase, Helm
+                </p>
+            </div>
+        </div>
+
+        <div class="row" id="work2">
+            <div class="when">
+                <time datetime="2024-10">10/2024</time> – <time datetime="2025-08">08/2025</time>
+                <span class="where">
+                    <a href="https://onefirewall.com" target="_blank" rel="noopener noreferrer">OneFirewall Alliance</a>
+                </span>
+                Lugano, Schweiz
+            </div>
+            <div>
+                <h3>Full Stack Software Engineer</h3>
+                <ul class="b">
+                    <li>
+                        Integration der OneFirewall-Plattform in Multi-Vendor-Netzwerkumgebungen, einschliesslich
+                        Cisco- und Juniper-Geräten.
+                    </li>
+                    <li>
+                        Konzeption und Wartung von Spring-REST-APIs in Java / Kotlin für Log-Ingestion, Export,
+                        Observability und Health-Monitoring, mit MongoDB als Datenbank.
+                    </li>
+                    <li>
+                        Aufbau von CI/CD-Automatisierungspipelines in Jenkins und Entwicklung von Angular-Dashboards
+                        (dynamische Tabellen, Diagramme, technische Dokumentation) zur Visualisierung der
+                        Ergebnisse, mit Prometheus und Grafana für Metriken.
+                    </li>
+                </ul>
+                <p class="stack">
+                    <b>Tech-Stack:</b> Java, Kotlin, Angular, Spring, Kubernetes, Docker, MongoDB, Jenkins,
+                    Prometheus, Grafana
+                </p>
+            </div>
+        </div>
+
+        <div class="row" id="work3">
+            <div class="when">
+                <time datetime="2022-01">01/2022</time> – <time datetime="2024-09">09/2024</time>
+                <span class="where">
+                    <a href="https://www.technevalue.com" target="_blank" rel="noopener noreferrer">TechneValue</a>
+                </span>
+                Zürich, Schweiz
+            </div>
+            <div>
+                <h3>Full Stack Software Engineer / Stream Lead</h3>
+                <p class="meta">
+                    Kunde:
+                    <a href="https://www.credit-suisse.com/ch/de.html" target="_blank"
+                       rel="noopener noreferrer">Credit Suisse (UBS Group)</a>,
+                    über Zühlke Engineering
+                </p>
+                <ul class="b">
+                    <li>
+                        Leitung eines Teams von 2 Engineers bei der Weiterentwicklung und Migration von
+                        Investmentplattformen für strukturierte Produkte und FX-Handel – termingerechte Lieferung
+                        ohne Unterbrechung des Handelsbetriebs.
+                    </li>
+                    <li>
+                        Entwicklung von Finanzanwendungen im Enterprise-Umfeld für tägliche Handels- und
+                        Abwicklungsprozesse, darunter das Portal «my Solutions», über das Kunden strukturierte
+                        Produkte, Absicherungsstrategien und FX-Transaktionen gestalten, bepreisen und handeln.
+                    </li>
+                    <li>
+                        Entwicklung von Spring-Boot-Services in Java / Kotlin und Angular-Frontends, bereitgestellt
+                        auf OpenShift und Kubernetes mit Argo CD (GitOps) und dokumentiert mit OpenAPI / Swagger.
+                    </li>
+                </ul>
+                <p class="stack">
+                    <b>Tech-Stack:</b> Java, Kotlin, Angular, Spring Boot, OpenShift, Kubernetes, Argo CD,
+                    MongoDB, Oracle DB, Swagger
+                </p>
+            </div>
+        </div>
+
+        <div class="row" id="work4">
+            <div class="when">
+                <time datetime="2018-01">01/2018</time> – <time datetime="2021-08">08/2021</time>
+                <span class="where">
+                    <a href="https://www.ufc.ch/en" target="_blank" rel="noopener noreferrer">Union of Financial Corners</a>
+                </span>
+                Genf, Schweiz
+            </div>
+            <div>
+                <h3>IT Manager</h3>
+                <ul class="b">
+                    <li>
+                        Konzeption, Integration und Implementierung von Backoffice-Tools und
+                        Unternehmensanwendungen zur Automatisierung und Optimierung interner Prozesse.
+                    </li>
+                    <li>
+                        Koordination von Entwicklungsteams, Lieferanten, Subunternehmern, Dienstleistern und
+                        externen IT-Auditoren zur Sicherstellung von Wartung, Qualitätssicherung und Integration
+                        neuer Produkte, Services und Prozesse.
+                    </li>
+                    <li>Verantwortlich für IT-Budget, Mentoring, Code Reviews und Sprint-Planung.</li>
+                </ul>
+                <p class="stack">
+                    <b>Tech-Stack:</b> Java, Spring Boot, Angular, Python, Docker, Jenkins, SQL Server,
+                    PostgreSQL, MongoDB, Swagger
+                </p>
+            </div>
+        </div>
+
+        <div class="row" id="work5">
+            <div class="when">
+                <time datetime="2016-01">01/2016</time> – <time datetime="2018-01">01/2018</time>
+                <span class="where">
+                    <a href="https://www.capgemini.com" target="_blank" rel="noopener noreferrer">Capgemini Engineering</a>
+                    (ehemals Altran)
+                </span>
+                Genua, Italien
+            </div>
+            <div>
+                <h3>Full Stack Software Engineer</h3>
+                <p class="meta">
+                    Kunde:
+                    <a href="https://www.ericsson.com/en" target="_blank" rel="noopener noreferrer">Ericsson</a>
+                </p>
+                <ul class="b">
+                    <li>
+                        Entwicklung und Wartung des Ericsson Network Manager (ENM), einer einheitlichen,
+                        hochverfügbaren Netzwerkmanagement-Plattform der nächsten Generation für
+                        Telekommunikationsnetze.
+                    </li>
+                    <li>Mitarbeit in multinationalen agilen Teams in den USA, Irland, Indien und Italien.</li>
+                </ul>
+                <p class="stack">
+                    <b>Tech-Stack:</b> Java EE, Spring Boot, Docker, Kubernetes, Jenkins, Hibernate, JUnit,
+                    Selenium, Linux, REST-APIs
+                </p>
+            </div>
+        </div>
+
+        <div class="row long" id="work6">
+            <div class="when">
+                <time datetime="2010-09">09/2010</time> – <time datetime="2015-12">12/2015</time>
+                <span class="where">
+                    <a href="https://www.keypartner.com/en" target="_blank" rel="noopener noreferrer">Key Partner</a>
+                </span>
+                Rom, Italien
+            </div>
+            <div>
+                <h3>Full Stack Software Developer</h3>
+                <p class="meta">IT-Consultant bei Key Partner, eingesetzt in folgenden Kundenprojekten:</p>
+
+                <div class="proj">
+                    <h4>
+                        <a href="https://www.gruppoacea.it/en" target="_blank" rel="noopener noreferrer">Acea</a>
+                        <span>04/2015 – 12/2015</span>
+                    </h4>
+                    <p>
+                        Migration, Entwicklung und Wartung des
+                        <a href="https://www.areti.it/accedi" target="_blank"
+                           rel="noopener noreferrer">Portale Acea Distribuzione (PAD) / Areti</a>,
+                        einer Plattform zur Verwaltung operativer Geschäftsbeziehungen im Strommarkt.
+                    </p>
+                    <p class="stack">
+                        <b>Tech-Stack:</b> Java EE, JSP, JPA, Hibernate, SOAP, REST, Angular, MS SQL Server,
+                        Git, Scrum
+                    </p>
+                </div>
+                <div class="proj">
+                    <h4>
+                        <a href="https://it.nttdata.com" target="_blank" rel="noopener noreferrer">NTT DATA Italia</a>
+                        /
+                        <a href="https://www.fideuram.it" target="_blank" rel="noopener noreferrer">Fideuram</a>
+                        <span>06/2014 – 03/2015</span>
+                    </h4>
+                    <p>
+                        Entwicklung und Wartung der Plattformen «Fideuram Online» und «Alfabeto Fideuram» für
+                        Bankgeschäfte und Trading-Services.
+                    </p>
+                    <p class="stack"><b>Tech-Stack:</b> Java, Struts, JSP, Angular, Oracle, JUnit, WebLogic</p>
+                </div>
+                <div class="proj">
+                    <h4>
+                        <a href="https://www.brandongroup.it/en" target="_blank" rel="noopener noreferrer">Brandon Ferrari</a>
+                        <span>03/2014 – 06/2014</span>
+                    </h4>
+                    <p>Entwicklung einer E-Commerce-Plattform, die Marken mit B2B-Flash-Sale-Portalen verbindet.</p>
+                    <p class="stack"><b>Tech-Stack:</b> Ruby on Rails, Spree, AWS, PostgreSQL, Redis, Heroku</p>
+                </div>
+                <div class="proj">
+                    <h4>
+                        <a href="https://www.gruppoacea.it/en" target="_blank" rel="noopener noreferrer">Acea</a>
+                        <span>11/2013 – 03/2014</span>
+                    </h4>
+                    <p>
+                        Re-Engineering der Finanzaustauschsysteme für SEPA-Lastschriftflüsse zwischen
+                        Gesellschaften der Acea-Gruppe und SIA SSB.
+                    </p>
+                    <p class="stack"><b>Tech-Stack:</b> Java EE, JBoss, REST, SOAP, SQL Server, SVN</p>
+                </div>
+                <div class="proj">
+                    <h4>
+                        <a href="https://www.hp.com" target="_blank" rel="noopener noreferrer">HP</a> /
+                        <a href="https://www.fideuram.it" target="_blank" rel="noopener noreferrer">Fideuram</a>
+                        <span>02/2012 – 11/2013</span>
+                    </h4>
+                    <p>
+                        Entwicklung von Beratungs- und Investment-Reporting-Plattformen für Finanzberater
+                        («Consulenza Avanzata SEI»).
+                    </p>
+                    <p class="stack"><b>Tech-Stack:</b> Java, Spring, GWT, JPA, Hibernate, MS SQL Server</p>
+                </div>
+                <div class="proj">
+                    <h4>
+                        <a href="https://www.reply.com/en" target="_blank" rel="noopener noreferrer">Reply</a> /
+                        Alitalia <span>06/2011 – 01/2012</span>
+                    </h4>
+                    <p>Migration, Entwicklung und Wartung des Kundenbindungssystems MilleMiglia (CLS).</p>
+                    <p class="stack"><b>Tech-Stack:</b> Java EE, GWT, REST, Oracle, PL/SQL</p>
+                </div>
+                <div class="proj">
+                    <h4>Glamoo<span>09/2010 – 06/2011</span></h4>
+                    <p>Entwicklung und Wartung einer E-Commerce-Flash-Sale-Plattform.</p>
+                    <p class="stack"><b>Tech-Stack:</b> Java, Spring, JSP, Hibernate, MySQL, AWS</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="intern">
+            <div class="when">
+                <time datetime="2009-09">09/2009</time> – <time datetime="2010-02">02/2010</time>
+                <span class="where">
+                    <a href="https://www.irpps.cnr.it/en" target="_blank" rel="noopener noreferrer">IRPPS-CNR</a>
+                </span>
+                Rom, Italien
+            </div>
+            <div>
+                <h3>Hochschulpraktikum</h3>
+                <ul class="b">
+                    <li>
+                        Entwicklung und Wartung institutioneller Webanwendungen, einschliesslich
+                        Feature-Implementierung und Performance-Optimierung.
+                    </li>
+                </ul>
+                <p class="stack"><b>Tech-Stack:</b> PHP, HTML, CSS, JavaScript, REST, Git</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="wrap" id="skills">
+        <h2>Kenntnisse</h2>
+        <dl class="k">
+            <dt>Programmiersprachen</dt>
+            <dd>Java (8–21), Kotlin, TypeScript, JavaScript, SQL, PL/SQL, Python, Ruby, PHP</dd>
+            <dt>Backend</dt>
+            <dd>
+                Spring Boot, Spring Security, Java EE / Jakarta EE, Hibernate / JPA, REST- und SOAP-APIs,
+                Microservices, OpenAPI / Swagger, Tomcat, JBoss, WebLogic
+            </dd>
+            <dt>Frontend</dt>
+            <dd>Angular, TypeScript, JavaScript, HTML, CSS, GWT, jQuery, Bootstrap</dd>
+            <dt>Cloud und DevOps</dt>
+            <dd>
+                Kubernetes, OpenShift, Docker, AWS, Helm, Argo CD (GitOps), Jenkins, CI/CD, Git, GitHub, GitLab,
+                Bitbucket, Maven, Gradle, SonarQube, Linux, Prometheus, Grafana, Splunk
+            </dd>
+            <dt>Datenbanken</dt>
+            <dd>Oracle, PostgreSQL, Microsoft SQL Server, MongoDB, MySQL, Redis, Liquibase</dd>
+            <dt>Testing</dt>
+            <dd>JUnit, Mockito, TestNG, Cucumber, Cypress, Selenium, RestAssured, Postman, SoapUI</dd>
+            <dt>Branchen</dt>
+            <dd>
+                Core Banking und Wealth Management (Avaloq), strukturierte Produkte und FX-Handel,
+                Netzwerkmanagement in der Telekommunikation, Cybersecurity / Threat Intelligence,
+                Energieversorgung, E-Commerce, Kundenbindung in der Luftfahrt
+            </dd>
+            <dt>Agile Methoden und Führung</dt>
+            <dd>
+                Scrum, Kanban, Lean, SAFe; Teamkoordination, Mentoring, Code Reviews, Sprint-Planung,
+                IT-Budgetierung, Koordination von Lieferanten und IT-Audits, Disaster Recovery und Business
+                Continuity
+            </dd>
+        </dl>
+    </section>
+
+    <section class="wrap" id="education">
+        <h2>Ausbildung</h2>
+        <dl class="k">
+            <dt>05/2010</dt>
+            <dd>
+                Bachelor in Computer Engineering (Informatik-Ingenieurwesen)<br/>
+                <small>
+                    <a href="https://www.uniroma3.it/en" target="_blank" rel="noopener noreferrer">Universität Roma Tre</a>,
+                    Rom, Italien
+                </small>
+            </dd>
+        </dl>
+    </section>
+
+    <section class="wrap" id="certifications">
+        <h2>Zertifikate</h2>
+        <dl class="k">
+            <dt>2021</dt>
+            <dd>
+                <a href="https://www.credly.com/org/peoplecert/badge/itil-4-foundation" target="_blank"
+                   rel="noopener noreferrer">ITIL® Foundation Certificate in IT Service Management</a>
+                <br/>
+                <small>PeopleCert / AXELOS</small>
+            </dd>
+            <dt>2021</dt>
+            <dd>
+                <a href="https://www.credly.com/earner/earned/badge/d2fd91b6-fd63-44ec-9c6d-a7ecf5c1805a" target="_blank"
+                   rel="noopener noreferrer">Cyber Security Foundation Professional Certificate</a>
+                <br/>
+                <small>Certiprof</small>
+            </dd>
+            <dt>2021</dt>
+            <dd>
+                <a href="https://www.credly.com/earner/earned/badge/6d2b351e-f3d5-4c2c-b8a7-62e29b7e6781" target="_blank"
+                   rel="noopener noreferrer">Data Science Orientation</a>
+                <br/>
+                <small>Coursera / IBM</small>
+            </dd>
+            <dt>2020</dt>
+            <dd>
+                <a href="https://www.credly.com/earner/earned/badge/e7ff5b9e-fae0-4b74-bb74-32854290c87d" target="_blank"
+                   rel="noopener noreferrer">Professional Scrum Master™ I (PSM I)</a>
+                <br/>
+                <small>Scrum.org</small>
+            </dd>
+            <dt>2013</dt>
+            <dd>
+                <a href="https://www.credly.com/earner/earned/badge/34e89d85-e9df-4314-acda-6475ce7e27f6" target="_blank"
+                   rel="noopener noreferrer">Oracle Certified Professional, Java SE 6 Programmer</a>
+                <br/>
+                <small>Oracle</small>
+            </dd>
+            <dt>2010</dt>
+            <dd>
+                <a href="../Electronic_Archive_Cert.pdf" target="_blank" rel="noopener noreferrer">
+                    Enhancing Education for the Longevity of Electronic Archives
+                </a>
+                <br/>
+                <small>UNESCO / INIMA</small>
+            </dd>
+        </dl>
+        <p>
+            <a href="https://www.credly.com/users/lorenc-bushati" target="_blank" rel="noopener noreferrer">
+                Alle Badges auf Credly ansehen
+            </a>
+        </p>
+    </section>
+
+    <section class="wrap" id="languages">
+        <h2>Sprachen</h2>
+        <dl class="k">
+            <dt>Italienisch</dt>
+            <dd>Muttersprache</dd>
+            <dt>Albanisch</dt>
+            <dd>Muttersprache</dd>
+            <dt>Englisch</dt>
+            <dd>Fliessend (C1)</dd>
+            <dt>Französisch</dt>
+            <dd>Gute Kenntnisse (B2)</dd>
+            <dt>Deutsch</dt>
+            <dd>Grundkenntnisse (A2)</dd>
+        </dl>
+    </section>
+</main>
+
+<footer class="wrap">
+    <span>Lorenc Bushati, Lugano, Schweiz</span>
+    <a class="back" href="#top">Nach oben</a>
+</footer>
+
+<script src="../site.js"></script>
+</body>
+</html>
