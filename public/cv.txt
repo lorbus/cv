@@ -1,0 +1,178 @@
+LORENC BUSHATI
+Senior Full Stack Engineer / Team Lead
+
+Location:            Lugano, Switzerland
+Work authorization:  Swiss Permit C, no restrictions
+Online CV:           https://lorbush.gitlab.io/cv/
+LinkedIn:            https://www.linkedin.com/in/lorenc-bushati
+GitHub:              https://github.com/lorbus
+GitLab:              https://gitlab.com/lorbush
+Certifications:      https://www.credly.com/users/lorenc-bushati
+
+
+SUMMARY
+-------
+Senior Full Stack Software Engineer with 15+ years of experience delivering
+enterprise software for banking, fintech, telecom, aviation and the public
+sector in Switzerland and Italy. Core expertise in Java, Kotlin, Spring Boot,
+Angular and TypeScript, building REST APIs and microservices that run on
+Kubernetes, OpenShift and AWS.
+
+Domain experience includes core banking and wealth management (Avaloq),
+structured products and FX trading (Credit Suisse / UBS), telecom network
+management (Ericsson) and airline loyalty (Alitalia). Hands-on leadership as
+stream lead and IT manager: mentoring, code review, sprint planning, vendor
+coordination and IT budgeting, plus DevOps and CI/CD automation in agile,
+distributed teams.
+
+
+EXPERIENCE
+----------
+
+Software Engineer
+DB&L services, Bioggio, Switzerland | 10/2025 - Present
+Client: Avaloq
+- Customize and implement the Avaloq Banking Suite - Avaloq Core Platform (ACP)
+  and Avaloq Front Platform (AFP) - for multiple financial-institution clients.
+- Deliver tailored solutions for core banking, wealth management and digital
+  banking operations, built with Java 21 and Angular on Oracle DB.
+- Ship changes through containerized deployments on Kubernetes and OpenShift,
+  using Helm, Jenkins pipelines, Liquibase database migrations and Grafana
+  monitoring.
+Tech stack: Java 21, Angular, Oracle DB, Kubernetes, Docker, OpenShift,
+Jenkins, Grafana, Liquibase, Helm
+
+Full Stack Software Engineer
+OneFirewall Alliance, Lugano, Switzerland | 10/2024 - 08/2025
+- Integrated the OneFirewall platform with multi-vendor network environments,
+  including Cisco and Juniper devices.
+- Designed and maintained Java / Kotlin Spring REST APIs for log ingestion,
+  export, observability and health monitoring, backed by MongoDB.
+- Built CI/CD automation pipelines in Jenkins and developed Angular dashboards
+  (dynamic tables, graphs, technical documentation) to visualize results, with
+  Prometheus and Grafana for metrics.
+Tech stack: Java, Kotlin, Angular, Spring, Kubernetes, Docker, MongoDB,
+Jenkins, Prometheus, Grafana
+
+Full Stack Software Engineer / Stream Lead
+TechneValue, Zurich, Switzerland | 01/2022 - 09/2024
+Client: Credit Suisse (UBS Group), via Zuhlke Engineering
+- Led a team of 2 engineers through the enhancement and migration of investment
+  platforms for structured products and FX trading, ensuring on-time delivery
+  with zero disruption to trading operations.
+- Developed enterprise-scale financial applications supporting daily trading
+  and settlement workflows, including the "my Solutions" portal, where clients
+  design, price and trade structured products, hedging strategies and FX
+  transactions.
+- Built Java / Kotlin Spring Boot services and Angular front ends, deployed to
+  OpenShift and Kubernetes with Argo CD (GitOps) and documented with
+  OpenAPI / Swagger.
+Tech stack: Java, Kotlin, Angular, Spring Boot, OpenShift, Kubernetes, Argo CD,
+MongoDB, Oracle DB, Swagger
+
+IT Manager
+Union of Financial Corners, Geneva, Switzerland | 01/2018 - 08/2021
+- Designed, integrated and implemented back-office tools and enterprise
+  applications to automate and optimize internal processes.
+- Coordinated software teams, suppliers, subcontractors, service providers and
+  external IT auditors to ensure maintenance, quality assurance and the
+  integration of new products, services and processes.
+- Responsible for IT budget management, mentoring, code review and sprint
+  planning.
+Tech stack: Java, Spring Boot, Angular, Python, Docker, Jenkins, SQL Server,
+PostgreSQL, MongoDB, Swagger
+
+Full Stack Software Engineer
+Capgemini Engineering (formerly Altran), Genoa, Italy | 01/2016 - 01/2018
+Client: Ericsson
+- Developed and maintained Ericsson Network Manager (ENM), a next-generation
+  unified, high-availability telecom network management platform.
+- Worked within multinational agile teams across the U.S., Ireland, India and
+  Italy.
+Tech stack: Java EE, Spring Boot, Docker, Kubernetes, Jenkins, Hibernate,
+JUnit, Selenium, Linux, REST APIs
+
+Full Stack Software Developer
+Key Partner, Rome, Italy | 09/2010 - 12/2015
+IT consultant at Key Partner, assigned to the following client projects:
+- Acea (04/2015 - 12/2015): Migration, development and maintenance of the
+  Portale Acea Distribuzione (PAD) / Areti, a platform for managing
+  operational relationships in the electricity sector.
+  Tech stack: Java EE, JSP, JPA, Hibernate, SOAP, REST, Angular,
+  MS SQL Server, Git, Scrum
+- NTT DATA Italia / Fideuram (06/2014 - 03/2015): Development and maintenance
+  of the "Fideuram Online" and "Alfabeto Fideuram" platforms for banking
+  operations and trading services.
+  Tech stack: Java, Struts, JSP, Angular, Oracle, JUnit, WebLogic
+- Brandon Ferrari (03/2014 - 06/2014): Development of an e-commerce platform
+  connecting brands with B2B flash-sales sites.
+  Tech stack: Ruby on Rails, Spree, AWS, PostgreSQL, Redis, Heroku
+- Acea (11/2013 - 03/2014): Re-engineering of financial exchange systems for
+  SEPA direct debit flows between Acea Group companies and SIA SSB.
+  Tech stack: Java EE, JBoss, REST, SOAP, SQL Server, SVN
+- HP / Fideuram (02/2012 - 11/2013): Development of advisory and investment
+  reporting platforms for financial advisors ("Consulenza Avanzata SEI").
+  Tech stack: Java, Spring, GWT, JPA, Hibernate, MS SQL Server
+- Reply / Alitalia (06/2011 - 01/2012): Migration, development and
+  maintenance of the MilleMiglia customer loyalty system (CLS).
+  Tech stack: Java EE, GWT, REST, Oracle, PL/SQL
+- Glamoo (09/2010 - 06/2011): Development and maintenance of an e-commerce
+  flash-sales platform.
+  Tech stack: Java, Spring, JSP, Hibernate, MySQL, AWS
+
+Academic Internship
+IRPPS-CNR, Rome, Italy | 09/2009 - 02/2010
+- Developed and maintained institutional web applications, including feature
+  implementation and performance optimization.
+Tech stack: PHP, HTML, CSS, JavaScript, REST, Git
+
+
+SKILLS
+------
+Languages:        Java (8-21), Kotlin, TypeScript, JavaScript, SQL, PL/SQL,
+                  Python, Ruby, PHP
+Backend:          Spring Boot, Spring Security, Java EE / Jakarta EE,
+                  Hibernate / JPA, REST and SOAP APIs, Microservices,
+                  OpenAPI / Swagger, Tomcat, JBoss, WebLogic
+Frontend:         Angular, TypeScript, JavaScript, HTML, CSS, GWT, jQuery,
+                  Bootstrap
+Cloud and DevOps: Kubernetes, OpenShift, Docker, AWS, Helm, Argo CD (GitOps),
+                  Jenkins, CI/CD, Git, GitHub, GitLab, Bitbucket, Maven,
+                  Gradle, SonarQube, Linux, Prometheus, Grafana, Splunk
+Databases:        Oracle, PostgreSQL, Microsoft SQL Server, MongoDB, MySQL,
+                  Redis, Liquibase
+Testing:          JUnit, Mockito, TestNG, Cucumber, Cypress, Selenium,
+                  RestAssured, Postman, SoapUI
+Domains:          Core banking and wealth management (Avaloq), structured
+                  products and FX trading, telecom network management,
+                  cybersecurity / threat intelligence, energy utilities,
+                  e-commerce, airline loyalty
+Agile/leadership: Scrum, Kanban, Lean, SAFe; team coordination, mentoring,
+                  code review, sprint planning, IT budgeting, vendor and
+                  IT-audit coordination, disaster recovery and business
+                  continuity
+
+
+EDUCATION
+---------
+Bachelor's Degree in Computer Engineering
+Roma Tre University, Rome, Italy | 05/2010
+
+
+CERTIFICATIONS
+--------------
+2021  ITIL Foundation Certificate in IT Service Management - PeopleCert / AXELOS
+2021  Cyber Security Foundation Professional Certificate - Certiprof
+2021  Data Science Orientation - Coursera / IBM
+2020  Professional Scrum Master I (PSM I) - Scrum.org
+2013  Oracle Certified Professional, Java SE 6 Programmer - Oracle
+2010  Enhancing Education for the Longevity of Electronic Archives - UNESCO / INIMA
+
+
+LANGUAGES
+---------
+Italian   Native
+Albanian  Native
+English   Fluent (C1)
+French    Intermediate (B2)
+German    Basic (A2)
