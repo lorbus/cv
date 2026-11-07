@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <script>
-        if (location.hostname !== "lorbush.gitlab.io" && location.hostname !== "localhost") {
+        // Only redirect unknown mirrors; GitHub and GitLab Pages both serve the CV.
+        // (Search engines are pointed at the GitLab URL by <link rel="canonical">.)
+        var allowedHosts = ["lorbush.gitlab.io", "lorbus.github.io", "localhost", "127.0.0.1", ""];
+        if (allowedHosts.indexOf(location.hostname) === -1) {
             location.replace("https://lorbush.gitlab.io/cv/" + location.hash);
         }
+        // apply saved theme before first paint (no flash)
+        try {
+            var savedTheme = localStorage.getItem("theme");
+            if (savedTheme === "light" || savedTheme === "dark") {
+                document.documentElement.setAttribute("data-theme", savedTheme);
+            }
+        } catch (e) {}
     </script>
 
     <meta charset="UTF-8" />
@@ -19,7 +29,9 @@
     />
     <meta name="author" content="Lorenc Bushati" />
     <meta name="robots" content="index,follow,max-image-preview:large" />
-    <meta name="theme-color" content="#4338ca" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f7f7fb" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#111219" media="(prefers-color-scheme: dark)" />
     <link rel="canonical" href="https://lorbush.gitlab.io/cv/" />
     <link rel="icon" type="image/png" href="cv.png" />
     <link rel="alternate" type="text/plain" href="cv.txt" title="Plain-text CV" />
@@ -114,6 +126,7 @@
         <a href="#education">Education</a>
         <a href="#certifications">Certifications</a>
         <a href="#languages">Languages</a>
+        <button class="theme-toggle" id="theme" type="button" aria-label="Switch colour theme">Dark</button>
     </div>
 </nav>
 
@@ -589,6 +602,31 @@
     window.addEventListener("afterprint", function () {
         document.title = pageTitle;
     });
+
+    // Light / dark toggle: OS preference by default, user choice remembered
+    (function () {
+        const root = document.documentElement;
+        const btn = document.getElementById("theme");
+        const osDark = window.matchMedia("(prefers-color-scheme: dark)");
+        const isDark = () => (root.getAttribute("data-theme") || (osDark.matches ? "dark" : "light")) === "dark";
+        const render = () => {
+            const dark = isDark();
+            btn.textContent = dark ? "☀ Light" : "☾ Dark";
+            btn.setAttribute("aria-pressed", String(dark));
+            btn.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
+            document.querySelectorAll('meta[name="theme-color"]').forEach(function (m) {
+                m.setAttribute("content", dark ? "#111219" : "#f7f7fb");
+            });
+        };
+        btn.addEventListener("click", function () {
+            const next = isDark() ? "light" : "dark";
+            root.setAttribute("data-theme", next);
+            try { localStorage.setItem("theme", next); } catch (e) {}
+            render();
+        });
+        osDark.addEventListener("change", render);
+        render();
+    })();
 </script>
 </body>
 </html>

@@ -4,8 +4,63 @@
     --rule: #dcdce8;
     --paper: #f7f7fb;
     --accent: #4338ca;
+    --nav-bg: rgba(247, 247, 251, 0.93);
+    --surface: #fff;
+    --btn-bg: #4338ca;
+    --btn-hover: #3328a8;
     --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
     --sans: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    color-scheme: light;
+}
+
+/* Dark mode: follows the OS setting unless the toggle sets data-theme on <html>.
+   Screen only, so Save as PDF always stays light. */
+@media screen and (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --ink: #e6e7ef;
+        --muted: #a0a5ba;
+        --rule: #2b2d3c;
+        --paper: #111219;
+        --accent: #a5b4fc;
+        --nav-bg: rgba(17, 18, 25, 0.9);
+        --surface: #1c1d28;
+        --btn-bg: #4f46e5;
+        --btn-hover: #4338ca;
+        color-scheme: dark;
+    }
+}
+@media screen {
+    :root[data-theme="dark"] {
+        --ink: #e6e7ef;
+        --muted: #a0a5ba;
+        --rule: #2b2d3c;
+        --paper: #111219;
+        --accent: #a5b4fc;
+        --nav-bg: rgba(17, 18, 25, 0.9);
+        --surface: #1c1d28;
+        --btn-bg: #4f46e5;
+        --btn-hover: #4338ca;
+        color-scheme: dark;
+    }
+}
+
+.theme-toggle {
+    margin-left: auto;
+    flex: none;
+    font: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--muted);
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 0.1rem 0.75rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.theme-toggle:hover {
+    color: var(--accent);
+    border-color: var(--accent);
 }
 * {
     box-sizing: border-box;
@@ -43,7 +98,7 @@ a:hover {
     left: 1rem;
     top: 1rem;
     z-index: 9;
-    background: #fff;
+    background: var(--surface);
     padding: 0.5rem 1rem;
 }
 .wrap {
@@ -55,7 +110,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 5;
-    background: rgba(247, 247, 251, 0.93);
+    background: var(--nav-bg);
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--rule);
 }
@@ -109,7 +164,7 @@ h1 {
 .btn {
     font: inherit;
     font-weight: 600;
-    background: var(--accent);
+    background: var(--btn-bg);
     color: #fff;
     border: 0;
     border-radius: 6px;
@@ -117,7 +172,7 @@ h1 {
     cursor: pointer;
 }
 .btn:hover {
-    background: #3328a8;
+    background: var(--btn-hover);
 }
 .facts {
     display: grid;
