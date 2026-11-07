@@ -7,6 +7,7 @@
         if (allowedHosts.indexOf(location.hostname) === -1) {
             location.replace("https://lorbush.gitlab.io/cv/it/" + location.hash);
         }
+        document.documentElement.className += " js";
         // apply saved theme before first paint (no flash)
         try {
             var savedTheme = localStorage.getItem("theme");
@@ -92,21 +93,28 @@
 
 <nav aria-label="Sezioni">
     <div class="wrap">
-        <a href="#about">Profilo</a>
-        <a href="#work">Esperienza</a>
-        <a href="#skills">Competenze</a>
-        <a href="#education">Formazione</a>
-        <a href="#certifications">Certificazioni</a>
-        <a href="#languages">Lingue</a>
-        <button class="theme-toggle" id="theme" type="button" aria-label="Passa al tema scuro"
-                data-to-dark="☾ Scuro" data-to-light="☀ Chiaro"
-                data-aria-dark="Passa al tema scuro" data-aria-light="Passa al tema chiaro">☾ Scuro</button>
-        <span class="langs" role="group" aria-label="Lingua">
-            <a href="../" hreflang="en" lang="en">EN</a>
-            <a href="./" hreflang="it" lang="it" aria-current="page">IT</a>
-            <a href="../fr/" hreflang="fr" lang="fr">FR</a>
-            <a href="../de/" hreflang="de" lang="de">DE</a>
-        </span>
+        <button class="menu-toggle" id="menu" type="button" aria-expanded="false" aria-controls="nav-links">
+            <span aria-hidden="true">☰</span> Menu
+        </button>
+        <div class="nav-links" id="nav-links">
+            <a href="#about">Profilo</a>
+            <a href="#work">Esperienza</a>
+            <a href="#skills">Competenze</a>
+            <a href="#education">Formazione</a>
+            <a href="#certifications">Certificazioni</a>
+            <a href="#languages">Lingue</a>
+        </div>
+        <div class="nav-tools">
+            <button class="theme-toggle" id="theme" type="button" aria-label="Passa al tema scuro"
+                    data-to-dark="☾ Scuro" data-to-light="☀ Chiaro"
+                    data-aria-dark="Passa al tema scuro" data-aria-light="Passa al tema chiaro">☾ Scuro</button>
+            <span class="langs" role="group" aria-label="Lingua">
+                <a href="../" hreflang="en" lang="en">EN</a>
+                <a href="./" hreflang="it" lang="it" aria-current="page">IT</a>
+                <a href="../fr/" hreflang="fr" lang="fr">FR</a>
+                <a href="../de/" hreflang="de" lang="de">DE</a>
+            </span>
+        </div>
     </div>
 </nav>
 

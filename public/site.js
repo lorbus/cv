@@ -19,6 +19,35 @@
         document.title = pageTitle;
     });
 
+    // Mobile menu: open/close the section links
+    var nav = document.querySelector("nav");
+    var menuBtn = document.getElementById("menu");
+    if (nav && menuBtn) {
+        var setOpen = function (open) {
+            nav.classList.toggle("open", open);
+            menuBtn.setAttribute("aria-expanded", String(open));
+        };
+        menuBtn.addEventListener("click", function () {
+            setOpen(!nav.classList.contains("open"));
+        });
+        // close after choosing a section, on Escape, or when tapping outside
+        var links = nav.querySelectorAll(".nav-links a");
+        for (var j = 0; j < links.length; j++) {
+            links[j].addEventListener("click", function () {
+                setOpen(false);
+            });
+        }
+        document.addEventListener("keydown", function (e) {
+            if (e.key === "Escape" && nav.classList.contains("open")) {
+                setOpen(false);
+                menuBtn.focus();
+            }
+        });
+        document.addEventListener("click", function (e) {
+            if (!nav.contains(e.target)) setOpen(false);
+        });
+    }
+
     // Light / dark toggle: OS preference by default, user choice remembered
     var btn = document.getElementById("theme");
     if (!btn) return;
@@ -34,7 +63,20 @@
     }
     function render() {
         var dark = isDark();
-        btn.textContent = dark ? labels.toLight : labels.toDark;
+        // "☾ Dark" -> icon + label, so very small screens can show the icon only
+        var text = dark ? labels.toLight : labels.toDark;
+        var cut = text.indexOf(" ");
+        btn.innerHTML = "";
+        var ic = document.createElement("span");
+        ic.setAttribute("aria-hidden", "true");
+        ic.textContent = cut > 0 ? text.slice(0, cut) : text;
+        btn.appendChild(ic);
+        if (cut > 0) {
+            var lbl = document.createElement("span");
+            lbl.className = "lbl";
+            lbl.textContent = text.slice(cut);
+            btn.appendChild(lbl);
+        }
         btn.setAttribute("aria-pressed", String(dark));
         btn.setAttribute("aria-label", dark ? labels.ariaLight : labels.ariaDark);
         var metas = document.querySelectorAll('meta[name="theme-color"]');

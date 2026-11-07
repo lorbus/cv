@@ -8,6 +8,7 @@
         if (allowedHosts.indexOf(location.hostname) === -1) {
             location.replace("https://lorbush.gitlab.io/cv/" + location.hash);
         }
+        document.documentElement.className += " js";
         // apply saved theme before first paint (no flash)
         try {
             var savedTheme = localStorage.getItem("theme");
@@ -132,19 +133,26 @@
 
 <nav aria-label="Sections">
     <div class="wrap">
-        <a href="#about">About</a>
-        <a href="#work">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#languages">Languages</a>
-        <button class="theme-toggle" id="theme" type="button" aria-label="Switch to dark theme">☾ Dark</button>
-        <span class="langs" role="group" aria-label="Language">
-            <a href="./" hreflang="en" lang="en" aria-current="page">EN</a>
-            <a href="it/" hreflang="it" lang="it">IT</a>
-            <a href="fr/" hreflang="fr" lang="fr">FR</a>
-            <a href="de/" hreflang="de" lang="de">DE</a>
-        </span>
+        <button class="menu-toggle" id="menu" type="button" aria-expanded="false" aria-controls="nav-links">
+            <span aria-hidden="true">☰</span> Menu
+        </button>
+        <div class="nav-links" id="nav-links">
+            <a href="#about">About</a>
+            <a href="#work">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#languages">Languages</a>
+        </div>
+        <div class="nav-tools">
+            <button class="theme-toggle" id="theme" type="button" aria-label="Switch to dark theme">☾ Dark</button>
+            <span class="langs" role="group" aria-label="Language">
+                <a href="./" hreflang="en" lang="en" aria-current="page">EN</a>
+                <a href="it/" hreflang="it" lang="it">IT</a>
+                <a href="fr/" hreflang="fr" lang="fr">FR</a>
+                <a href="de/" hreflang="de" lang="de">DE</a>
+            </span>
+        </div>
     </div>
 </nav>
 
