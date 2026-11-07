@@ -405,6 +405,11 @@ footer.wrap {
     .facts {
         grid-template-columns: 7rem 1fr;
     }
+    /* Languages stay side by side: language | level */
+    #languages dl.k {
+        grid-template-columns: max-content 1fr;
+        gap: 0.5rem 1.5rem;
+    }
 }
 @media (prefers-reduced-motion: reduce) {
     html {
