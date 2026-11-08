@@ -34,7 +34,8 @@
     <meta name="theme-color" content="#f7f7fb" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#111219" media="(prefers-color-scheme: dark)" />
     <link rel="canonical" href="https://lorbush.gitlab.io/cv/" />
-    <link rel="icon" type="image/png" href="cv.png" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <link rel="me" href="https://www.linkedin.com/in/lorenc-bushati" />
     <link rel="me" href="https://github.com/lorbus" />
     <link rel="me" href="https://gitlab.com/lorbush" />
@@ -50,7 +51,10 @@
             property="og:description"
             content="Senior Full Stack Engineer in Switzerland: Java, Spring Boot, Angular, Kubernetes, OpenShift, AWS. 15+ years in banking, fintech, telecom and aviation."
     />
-    <meta property="og:image" content="https://lorbush.gitlab.io/cv/cv.png" />
+    <meta property="og:image" content="https://lorbush.gitlab.io/cv/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Lorenc Bushati – Senior Full Stack Engineer / Team Lead, Lugano, Switzerland" />
     <meta property="og:type" content="profile" />
     <meta property="profile:first_name" content="Lorenc" />
     <meta property="profile:last_name" content="Bushati" />
@@ -60,7 +64,7 @@
     <meta property="og:locale:alternate" content="fr_CH" />
     <meta property="og:locale:alternate" content="de_CH" />
     <meta property="og:site_name" content="Lorenc Bushati — CV" />
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <script type="application/ld+json">
         {
@@ -68,7 +72,8 @@
             "@type": "ProfilePage",
             "inLanguage": "en",
             "url": "https://lorbush.gitlab.io/cv/",
-            "dateModified": "2026-11-07",
+            "dateModified": "2026-11-08",
+            "image": "https://lorbush.gitlab.io/cv/og-image.png",
             "mainEntity": {
                 "@type": "Person",
                 "@id": "https://lorbush.gitlab.io/cv/#person",
@@ -78,7 +83,6 @@
                 "jobTitle": "Senior Full Stack Engineer / Team Lead",
                 "description": "Senior Full Stack Software Engineer and Team Lead with 15+ years of experience building enterprise systems for banking, fintech, telecom, aviation and the public sector, using Java, Spring Boot, Angular, Kubernetes, OpenShift and AWS.",
                 "url": "https://lorbush.gitlab.io/cv/",
-                "image": "https://lorbush.gitlab.io/cv/cv.png",
                 "address": {
                     "@type": "PostalAddress",
                     "addressLocality": "Lugano",
@@ -172,10 +176,10 @@
         </li>
         <li><a href="https://github.com/lorbus" target="_blank" rel="noopener noreferrer">GitHub</a></li>
         <li><a href="https://gitlab.com/lorbush" target="_blank" rel="noopener noreferrer">GitLab</a></li>
-        <!-- if you add a static PDF to the repo, replace the button with -->
-        <!-- <a class="btn" href="Lorenc-Bushati-CV.pdf" download>Download PDF</a> -->
         <li><a href="cv.txt">Plain text</a></li>
-        <li><button class="btn" id="pdf" type="button">Save as PDF</button></li>
+        <li><a class="btn" href="Lorenc-Bushati-CV-EN.pdf" download type="application/pdf">Download PDF</a></li>
+        <!-- Browser print dialog (site.js supports #pdf) -->
+        <!-- <li><button class="btn" id="pdf" type="button">Save as PDF</button></li> -->
     </ul>
     <p class="print-only">
         linkedin.com/in/lorenc-bushati, github.com/lorbus, gitlab.com/lorbush, lorbush.gitlab.io/cv

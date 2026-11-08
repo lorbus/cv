@@ -1,14 +1,23 @@
 # Lorenc Bushati – Senior Full Stack Engineer / Team Lead
 
 Lugano, Switzerland · Swiss Permit C (no restrictions)
-Online CV: <https://lorbush.gitlab.io/cv/> · [LinkedIn](https://www.linkedin.com/in/lorenc-bushati) · [GitHub](https://github.com/lorbus) · [GitLab](https://gitlab.com/lorbush) · [Credly](https://www.credly.com/users/lorenc-bushati)
+[LinkedIn](https://www.linkedin.com/in/lorenc-bushati) · [GitHub](https://github.com/lorbus) · [GitLab](https://gitlab.com/lorbush) · [Credly](https://www.credly.com/users/lorenc-bushati)
+
+| Language | Online CV | PDF | Plain text |
+|---|---|---|---|
+| English | [lorbush.gitlab.io/cv](https://lorbush.gitlab.io/cv/) | [PDF](https://lorbush.gitlab.io/cv/Lorenc-Bushati-CV-EN.pdf) | [TXT](https://lorbush.gitlab.io/cv/cv.txt) |
+| Italiano | [lorbush.gitlab.io/cv/it](https://lorbush.gitlab.io/cv/it/) | [PDF](https://lorbush.gitlab.io/cv/Lorenc-Bushati-CV-IT.pdf) | [TXT](https://lorbush.gitlab.io/cv/it/cv.txt) |
+| Français | [lorbush.gitlab.io/cv/fr](https://lorbush.gitlab.io/cv/fr/) | [PDF](https://lorbush.gitlab.io/cv/Lorenc-Bushati-CV-FR.pdf) | [TXT](https://lorbush.gitlab.io/cv/fr/cv.txt) |
+| Deutsch | [lorbush.gitlab.io/cv/de](https://lorbush.gitlab.io/cv/de/) | [PDF](https://lorbush.gitlab.io/cv/Lorenc-Bushati-CV-DE.pdf) | [TXT](https://lorbush.gitlab.io/cv/de/cv.txt) |
 
 ## Summary
 
 Senior Full Stack Software Engineer with 15+ years of experience delivering enterprise software for banking,
 fintech, telecom, aviation and the public sector in Switzerland and Italy. Core expertise in Java, Kotlin,
 Spring Boot, Angular and TypeScript, building REST APIs and microservices on Kubernetes, OpenShift and AWS.
-Hands-on leadership as stream lead and IT manager: mentoring, code review, sprint planning, vendor coordination
+Domain experience in core banking and wealth management (Avaloq), structured products and FX trading
+(Credit Suisse / UBS), telecom network management (Ericsson) and airline loyalty (Alitalia). Hands-on
+leadership as stream lead and IT manager: mentoring, code review, sprint planning, vendor coordination
 and IT budgeting.
 
 ## Experience
