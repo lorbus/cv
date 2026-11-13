@@ -1,0 +1,5 @@
+# Everyone (search engines and AI agents) is welcome to read and index this CV.
+User-agent: *
+Allow: /
+
+Sitemap: https://lorencbushati.is-a.dev/sitemap.xml

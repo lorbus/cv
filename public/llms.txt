@@ -1,0 +1,34 @@
+# Lorenc Bushati
+
+> Lorenc Bushati is a Senior Full Stack Software Engineer and Team Lead based in Lugano, Switzerland (Swiss Permit C, no work restrictions). He has 15+ years of experience delivering enterprise software for banking, fintech, telecom, aviation and the public sector in Switzerland and Italy, with Java, Kotlin, Spring Boot, Angular and TypeScript, on Kubernetes, OpenShift and AWS.
+
+This is the official online CV of Lorenc Bushati. The site is https://lorencbushati.is-a.dev/. The full CV is available in English, Italian, French and German as HTML, plain text and PDF.
+
+Key facts:
+
+- Current role: Software Engineer at DB&L services (Bioggio, Switzerland), working for Avaloq on the Avaloq Banking Suite (ACP / AFP), since 10/2025
+- Previous roles: Full Stack Software Engineer at OneFirewall Alliance (Lugano), Full Stack Engineer / Stream Lead at TechneValue for Credit Suisse (UBS Group) via Zuhlke (Zurich), IT Manager at Union of Financial Corners (Geneva), Full Stack Engineer at Capgemini Engineering (formerly Altran) for Ericsson (Genoa), Full Stack Developer at Key Partner (Rome)
+- Domains: core banking and wealth management (Avaloq), structured products and FX trading, telecom network management, cybersecurity, energy utilities, e-commerce, airline loyalty
+- Skills: Java, Kotlin, Spring Boot, Angular, TypeScript, microservices, REST APIs, Kubernetes, OpenShift, Docker, AWS, Helm, Argo CD, Jenkins, CI/CD, Oracle, PostgreSQL, MongoDB, team leadership, mentoring
+- Education: Bachelor's Degree in Computer Engineering, Roma Tre University (Rome, Italy)
+- Certifications: ITIL 4 Foundation, Professional Scrum Master I (PSM I), Cyber Security Foundation, Oracle Certified Professional Java SE 6 Programmer
+- Languages: Italian (native), Albanian (native), English (C1), French (B2), German (A2)
+
+## CV
+
+- [Full CV, plain text (English)](https://lorencbushati.is-a.dev/cv.txt): complete experience, skills, education and certifications
+- [CV web page (English)](https://lorencbushati.is-a.dev/)
+- [CV PDF (English)](https://lorencbushati.is-a.dev/Lorenc-Bushati-CV-EN.pdf)
+
+## Other languages
+
+- [Italiano: CV (testo)](https://lorencbushati.is-a.dev/it/cv.txt), [pagina web](https://lorencbushati.is-a.dev/it/), [PDF](https://lorencbushati.is-a.dev/Lorenc-Bushati-CV-IT.pdf)
+- [Français: CV (texte)](https://lorencbushati.is-a.dev/fr/cv.txt), [page web](https://lorencbushati.is-a.dev/fr/), [PDF](https://lorencbushati.is-a.dev/Lorenc-Bushati-CV-FR.pdf)
+- [Deutsch: Lebenslauf (Text)](https://lorencbushati.is-a.dev/de/cv.txt), [Webseite](https://lorencbushati.is-a.dev/de/), [PDF](https://lorencbushati.is-a.dev/Lorenc-Bushati-CV-DE.pdf)
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/lorenc-bushati)
+- [GitHub](https://github.com/lorbus)
+- [GitLab](https://gitlab.com/lorbush)
+- [Credly (certifications)](https://www.credly.com/users/lorenc-bushati)
