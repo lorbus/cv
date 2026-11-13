@@ -2,11 +2,11 @@
 <html lang="en" data-print-title="Lorenc Bushati - CV">
 <head>
     <script>
-        // Only redirect unknown mirrors; GitHub and GitLab Pages both serve the CV.
-        // (Search engines are pointed at the GitLab URL by <link rel="canonical">.)
-        var allowedHosts = ["lorbush.gitlab.io", "lorbus.github.io", "localhost", "127.0.0.1", ""];
+        // Only redirect unknown mirrors; the custom domain plus GitHub and GitLab Pages all serve the CV.
+        // (Search engines are pointed at lorencbushati.is-a.dev by <link rel="canonical">.)
+        var allowedHosts = ["lorencbushati.is-a.dev", "lorbush.gitlab.io", "lorbus.github.io", "localhost", "127.0.0.1", ""];
         if (allowedHosts.indexOf(location.hostname) === -1) {
-            location.replace("https://lorbush.gitlab.io/cv/" + location.hash);
+            location.replace("https://lorencbushati.is-a.dev/" + location.hash);
         }
         document.documentElement.className += " js";
         // apply saved theme before first paint (no flash)
@@ -33,32 +33,32 @@
     <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#f7f7fb" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#111219" media="(prefers-color-scheme: dark)" />
-    <link rel="canonical" href="https://lorbush.gitlab.io/cv/" />
+    <link rel="canonical" href="https://lorencbushati.is-a.dev/" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <link rel="me" href="https://www.linkedin.com/in/lorenc-bushati" />
     <link rel="me" href="https://github.com/lorbus" />
     <link rel="me" href="https://gitlab.com/lorbush" />
     <link rel="alternate" type="text/plain" href="cv.txt" title="Plain-text CV" />
-    <link rel="alternate" hreflang="en" href="https://lorbush.gitlab.io/cv/" />
-    <link rel="alternate" hreflang="it" href="https://lorbush.gitlab.io/cv/it/" />
-    <link rel="alternate" hreflang="fr" href="https://lorbush.gitlab.io/cv/fr/" />
-    <link rel="alternate" hreflang="de" href="https://lorbush.gitlab.io/cv/de/" />
-    <link rel="alternate" hreflang="x-default" href="https://lorbush.gitlab.io/cv/" />
+    <link rel="alternate" hreflang="en" href="https://lorencbushati.is-a.dev/" />
+    <link rel="alternate" hreflang="it" href="https://lorencbushati.is-a.dev/it/" />
+    <link rel="alternate" hreflang="fr" href="https://lorencbushati.is-a.dev/fr/" />
+    <link rel="alternate" hreflang="de" href="https://lorencbushati.is-a.dev/de/" />
+    <link rel="alternate" hreflang="x-default" href="https://lorencbushati.is-a.dev/" />
 
     <meta property="og:title" content="Lorenc Bushati | Senior Full Stack Engineer / Team Lead" />
     <meta
             property="og:description"
             content="Senior Full Stack Engineer in Switzerland: Java, Spring Boot, Angular, Kubernetes, OpenShift, AWS. 15+ years in banking, fintech, telecom and aviation."
     />
-    <meta property="og:image" content="https://lorbush.gitlab.io/cv/og-image.png" />
+    <meta property="og:image" content="https://lorencbushati.is-a.dev/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Lorenc Bushati – Senior Full Stack Engineer / Team Lead, Lugano, Switzerland" />
     <meta property="og:type" content="profile" />
     <meta property="profile:first_name" content="Lorenc" />
     <meta property="profile:last_name" content="Bushati" />
-    <meta property="og:url" content="https://lorbush.gitlab.io/cv/" />
+    <meta property="og:url" content="https://lorencbushati.is-a.dev/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:locale:alternate" content="it_CH" />
     <meta property="og:locale:alternate" content="fr_CH" />
@@ -71,18 +71,18 @@
             "@context": "https://schema.org",
             "@type": "ProfilePage",
             "inLanguage": "en",
-            "url": "https://lorbush.gitlab.io/cv/",
+            "url": "https://lorencbushati.is-a.dev/",
             "dateModified": "2026-11-08",
-            "image": "https://lorbush.gitlab.io/cv/og-image.png",
+            "image": "https://lorencbushati.is-a.dev/og-image.png",
             "mainEntity": {
                 "@type": "Person",
-                "@id": "https://lorbush.gitlab.io/cv/#person",
+                "@id": "https://lorencbushati.is-a.dev/#person",
                 "name": "Lorenc Bushati",
                 "givenName": "Lorenc",
                 "familyName": "Bushati",
                 "jobTitle": "Senior Full Stack Engineer / Team Lead",
                 "description": "Senior Full Stack Software Engineer and Team Lead with 15+ years of experience building enterprise systems for banking, fintech, telecom, aviation and the public sector, using Java, Spring Boot, Angular, Kubernetes, OpenShift and AWS.",
-                "url": "https://lorbush.gitlab.io/cv/",
+                "url": "https://lorencbushati.is-a.dev/",
                 "address": {
                     "@type": "PostalAddress",
                     "addressLocality": "Lugano",
@@ -182,7 +182,7 @@
         <!-- <li><button class="btn" id="pdf" type="button">Save as PDF</button></li> -->
     </ul>
     <p class="print-only">
-        linkedin.com/in/lorenc-bushati, github.com/lorbus, gitlab.com/lorbush, lorbush.gitlab.io/cv
+        linkedin.com/in/lorenc-bushati, github.com/lorbus, gitlab.com/lorbush, lorencbushati.is-a.dev
     </p>
 
     <dl class="facts">

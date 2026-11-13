@@ -5,10 +5,10 @@ Lugano, Switzerland · Swiss Permit C (no restrictions)
 
 | Language | Online CV | PDF | Plain text |
 |---|---|---|---|
-| English | [lorbush.gitlab.io/cv](https://lorbush.gitlab.io/cv/) | [PDF](https://lorbush.gitlab.io/cv/Lorenc-Bushati-CV-EN.pdf) | [TXT](https://lorbush.gitlab.io/cv/cv.txt) |
-| Italiano | [lorbush.gitlab.io/cv/it](https://lorbush.gitlab.io/cv/it/) | [PDF](https://lorbush.gitlab.io/cv/Lorenc-Bushati-CV-IT.pdf) | [TXT](https://lorbush.gitlab.io/cv/it/cv.txt) |
-| Français | [lorbush.gitlab.io/cv/fr](https://lorbush.gitlab.io/cv/fr/) | [PDF](https://lorbush.gitlab.io/cv/Lorenc-Bushati-CV-FR.pdf) | [TXT](https://lorbush.gitlab.io/cv/fr/cv.txt) |
-| Deutsch | [lorbush.gitlab.io/cv/de](https://lorbush.gitlab.io/cv/de/) | [PDF](https://lorbush.gitlab.io/cv/Lorenc-Bushati-CV-DE.pdf) | [TXT](https://lorbush.gitlab.io/cv/de/cv.txt) |
+| English | [lorencbushati.is-a.dev](https://lorencbushati.is-a.dev/) | [PDF](https://lorencbushati.is-a.dev/Lorenc-Bushati-CV-EN.pdf) | [TXT](https://lorencbushati.is-a.dev/cv.txt) |
+| Italiano | [lorencbushati.is-a.dev/it](https://lorencbushati.is-a.dev/it/) | [PDF](https://lorencbushati.is-a.dev/Lorenc-Bushati-CV-IT.pdf) | [TXT](https://lorencbushati.is-a.dev/it/cv.txt) |
+| Français | [lorencbushati.is-a.dev/fr](https://lorencbushati.is-a.dev/fr/) | [PDF](https://lorencbushati.is-a.dev/Lorenc-Bushati-CV-FR.pdf) | [TXT](https://lorencbushati.is-a.dev/fr/cv.txt) |
+| Deutsch | [lorencbushati.is-a.dev/de](https://lorencbushati.is-a.dev/de/) | [PDF](https://lorencbushati.is-a.dev/Lorenc-Bushati-CV-DE.pdf) | [TXT](https://lorencbushati.is-a.dev/de/cv.txt) |
 
 ## Summary
 

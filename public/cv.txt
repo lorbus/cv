@@ -3,7 +3,7 @@ Senior Full Stack Engineer / Team Lead
 
 Location:            Lugano, Switzerland
 Work authorization:  Swiss Permit C, no restrictions
-Online CV:           https://lorbush.gitlab.io/cv/
+Online CV:           https://lorencbushati.is-a.dev/
 LinkedIn:            https://www.linkedin.com/in/lorenc-bushati
 GitHub:              https://github.com/lorbus
 GitLab:              https://gitlab.com/lorbush
