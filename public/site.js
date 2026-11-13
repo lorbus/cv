@@ -48,6 +48,27 @@
         });
     }
 
+    // Back to top: floating button, shown only after scrolling down
+    var back = document.querySelector("a.back");
+    if (back) {
+        var ticking = false;
+        var updateBack = function () {
+            ticking = false;
+            back.classList.toggle("show", window.scrollY > window.innerHeight * 0.6);
+        };
+        window.addEventListener(
+            "scroll",
+            function () {
+                if (!ticking) {
+                    ticking = true;
+                    window.requestAnimationFrame(updateBack);
+                }
+            },
+            { passive: true }
+        );
+        updateBack();
+    }
+
     // Light / dark toggle: OS preference by default, user choice remembered
     var btn = document.getElementById("theme");
     if (!btn) return;
