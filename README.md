@@ -67,7 +67,7 @@ IT consultant on client projects:
 
 ## Skills
 
-- **Languages:** Java (8–21), Kotlin, TypeScript, JavaScript, SQL, PL/SQL, Python, Ruby, PHP
+- **Languages:** Java, Kotlin, TypeScript, JavaScript, SQL, PL/SQL, Python, Ruby, PHP
 - **Backend:** Spring Boot, Spring Security, Java EE / Jakarta EE, Hibernate / JPA, REST, SOAP, Microservices, OpenAPI / Swagger
 - **Frontend:** Angular, TypeScript, HTML, CSS, GWT, jQuery, Bootstrap
 - **Cloud & DevOps:** Kubernetes, OpenShift, Docker, AWS, Helm, Argo CD, Jenkins, CI/CD, Git, GitLab, Maven, Gradle, SonarQube, Prometheus, Grafana, Splunk

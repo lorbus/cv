@@ -129,7 +129,7 @@ Tech stack: PHP, HTML, CSS, JavaScript, REST, Git
 
 SKILLS
 ------
-Languages:        Java (8-21), Kotlin, TypeScript, JavaScript, SQL, PL/SQL,
+Languages:        Java, Kotlin, TypeScript, JavaScript, SQL, PL/SQL,
                   Python, Ruby, PHP
 Backend:          Spring Boot, Spring Security, Java EE / Jakarta EE,
                   Hibernate / JPA, REST and SOAP APIs, Microservices,
