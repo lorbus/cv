@@ -59,7 +59,7 @@
         ariaLight: btn.getAttribute("data-aria-light") || "Switch to light theme"
     };
     function isDark() {
-        return (root.getAttribute("data-theme") || (osDark.matches ? "dark" : "light")) === "dark";
+        return (root.dataset.theme || (osDark.matches ? "dark" : "light")) === "dark";
     }
     function render() {
         var dark = isDark();
@@ -86,10 +86,12 @@
     }
     btn.addEventListener("click", function () {
         var next = isDark() ? "light" : "dark";
-        root.setAttribute("data-theme", next);
+        root.dataset.theme = next;
         try {
             localStorage.setItem("theme", next);
-        } catch (e) {}
+        } catch (e) {
+            // storage unavailable: the theme still applies for this visit
+        }
         render();
     });
     if (osDark.addEventListener) osDark.addEventListener("change", render);

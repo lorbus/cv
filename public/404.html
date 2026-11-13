@@ -8,20 +8,22 @@
         }
         document.documentElement.className += " js";
         try {
-            var savedTheme = localStorage.getItem("theme");
+            const savedTheme = localStorage.getItem("theme");
             if (savedTheme === "light" || savedTheme === "dark") {
-                document.documentElement.setAttribute("data-theme", savedTheme);
+                document.documentElement.dataset.theme = savedTheme;
             }
-        } catch (e) {}
+        } catch (e) {
+            // storage unavailable (private mode or blocked): keep the default theme
+        }
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex" />
     <meta name="color-scheme" content="light dark" />
     <title>Page not found | Lorenc Bushati – CV</title>
-    <!-- absolute URLs: this page is served for missing URLs at any depth, on any mirror -->
-    <link href="https://lorencbushati.is-a.dev/styles.css" rel="stylesheet" />
-    <link rel="icon" type="image/svg+xml" href="https://lorencbushati.is-a.dev/favicon.svg" />
+    <!-- root-absolute paths: this page is served for missing URLs at any depth -->
+    <link href="/styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <style>
         .notfound { padding: clamp(3rem, 10vw, 6rem) 0 3rem; }
         .notfound h1 { font-size: clamp(2.2rem, 7vw, 3.4rem); }

@@ -10,11 +10,13 @@
         document.documentElement.className += " js";
         // apply saved theme before first paint (no flash)
         try {
-            var savedTheme = localStorage.getItem("theme");
+            const savedTheme = localStorage.getItem("theme");
             if (savedTheme === "light" || savedTheme === "dark") {
-                document.documentElement.setAttribute("data-theme", savedTheme);
+                document.documentElement.dataset.theme = savedTheme;
             }
-        } catch (e) {}
+        } catch (e) {
+            // storage unavailable (private mode or blocked): keep the default theme
+        }
     </script>
 
     <meta charset="UTF-8" />
