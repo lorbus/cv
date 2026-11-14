@@ -68,6 +68,7 @@ IT consultant on client projects:
 ## Education
 
 - **Bachelor’s Degree in Computer Engineering** – Roma Tre University, Rome, Italy (2010)
+- **Scientific high school diploma (Maturità scientifica, equivalent to the Swiss Matura)** – Liceo Scientifico Louis Pasteur, Rome, Italy (2002)
 
 ## Further training and certifications
 
