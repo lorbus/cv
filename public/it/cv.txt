@@ -1,8 +1,8 @@
 ﻿LORENC BUSHATI
 Senior Full Stack Engineer / Team Lead
 
-Residenza:           Lugano, Svizzera
-Permesso di lavoro:  Permesso C, nessuna restrizione
+Residenza:           Lugano (TI), Svizzera
+Permesso di lavoro:  Permesso C (permesso di domicilio), nessuna restrizione
 CV online:           https://lorencbushati.is-a.dev/it/
 LinkedIn:            https://www.linkedin.com/in/lorenc-bushati
 GitHub:              https://github.com/lorbus
@@ -30,7 +30,7 @@ ESPERIENZA PROFESSIONALE
 ------------------------
 
 Software Engineer
-DB&L services, Bioggio, Svizzera | 10/2025 - oggi
+DB&L services, Bioggio, Svizzera | 10.2025 - oggi
 Cliente: Avaloq
 - Personalizzazione e implementazione della Avaloq Banking Suite - Avaloq Core
   Platform (ACP) e Avaloq Front Platform (AFP) - per diversi istituti
@@ -44,7 +44,7 @@ Stack tecnologico: Java 21, Angular, Oracle DB, Kubernetes, Docker, OpenShift,
 Jenkins, Grafana, Liquibase, Helm
 
 Full Stack Software Engineer
-OneFirewall Alliance, Lugano, Svizzera | 10/2024 - 08/2025
+OneFirewall Alliance, Lugano, Svizzera | 10.2024 - 08.2025
 - Integrazione della piattaforma OneFirewall con ambienti di rete
   multi-vendor, inclusi dispositivi Cisco e Juniper.
 - Progettazione e manutenzione di API REST Spring in Java / Kotlin per
@@ -57,7 +57,7 @@ Stack tecnologico: Java, Kotlin, Angular, Spring, Kubernetes, Docker, MongoDB,
 Jenkins, Prometheus, Grafana
 
 Full Stack Software Engineer / Stream Lead
-TechneValue, Zurigo, Svizzera | 01/2022 - 09/2024
+TechneValue, Zurigo, Svizzera | 01.2022 - 09.2024
 Cliente: Credit Suisse (UBS Group), tramite Zühlke Engineering
 - Guida di un team di 2 sviluppatori nell'evoluzione e nella migrazione delle
   piattaforme d'investimento per prodotti strutturati e trading FX, con
@@ -74,7 +74,7 @@ Stack tecnologico: Java, Kotlin, Angular, Spring Boot, OpenShift, Kubernetes,
 Argo CD, MongoDB, Oracle DB, Swagger
 
 IT Manager
-Union of Financial Corners, Ginevra, Svizzera | 01/2018 - 08/2021
+Union of Financial Corners, Ginevra, Svizzera | 01.2018 - 08.2021
 - Progettazione, integrazione e implementazione di strumenti di back-office e
   applicazioni enterprise per automatizzare e ottimizzare i processi interni.
 - Coordinamento di team di sviluppo, fornitori, subappaltatori, service
@@ -86,7 +86,7 @@ Stack tecnologico: Java, Spring Boot, Angular, Python, Docker, Jenkins,
 SQL Server, PostgreSQL, MongoDB, Swagger
 
 Full Stack Software Engineer
-Capgemini Engineering (ex Altran), Genova, Italia | 01/2016 - 01/2018
+Capgemini Engineering (ex Altran), Genova, Italia | 01.2016 - 01.2018
 Cliente: Ericsson
 - Sviluppo e manutenzione di Ericsson Network Manager (ENM), piattaforma
   unificata di nuova generazione ad alta disponibilità per la gestione delle
@@ -97,46 +97,73 @@ Stack tecnologico: Java EE, Spring Boot, Docker, Kubernetes, Jenkins,
 Hibernate, JUnit, Selenium, Linux, REST API
 
 Full Stack Software Developer
-Key Partner, Roma, Italia | 09/2010 - 12/2015
+Key Partner, Roma, Italia | 09.2010 - 12.2015
 Consulente IT presso Key Partner, assegnato ai seguenti progetti presso
 clienti:
-- Acea (04/2015 - 12/2015): Migrazione, sviluppo e manutenzione del Portale
+- Acea (04.2015 - 12.2015): Migrazione, sviluppo e manutenzione del Portale
   Acea Distribuzione (PAD) / Areti, piattaforma per la gestione dei rapporti
   operativi nel settore elettrico.
   Stack tecnologico: Java EE, JSP, JPA, Hibernate, SOAP, REST, Angular,
   MS SQL Server, Git, Scrum
-- NTT DATA Italia / Fideuram (06/2014 - 03/2015): Sviluppo e manutenzione
+- NTT DATA Italia / Fideuram (06.2014 - 03.2015): Sviluppo e manutenzione
   delle piattaforme "Fideuram Online" e "Alfabeto Fideuram" per l'operatività
   bancaria e i servizi di trading.
   Stack tecnologico: Java, Struts, JSP, Angular, Oracle, JUnit, WebLogic
-- Brandon Ferrari (03/2014 - 06/2014): Sviluppo di una piattaforma e-commerce
+- Brandon Ferrari (03.2014 - 06.2014): Sviluppo di una piattaforma e-commerce
   che collega i brand con siti B2B di vendite flash.
   Stack tecnologico: Ruby on Rails, Spree, AWS, PostgreSQL, Redis, Heroku
-- Acea (11/2013 - 03/2014): Reingegnerizzazione dei sistemi di scambio
+- Acea (11.2013 - 03.2014): Reingegnerizzazione dei sistemi di scambio
   finanziario per i flussi di addebito diretto SEPA tra le società del Gruppo
   Acea e SIA SSB.
   Stack tecnologico: Java EE, JBoss, REST, SOAP, SQL Server, SVN
-- HP / Fideuram (02/2012 - 11/2013): Sviluppo di piattaforme di consulenza e
+- HP / Fideuram (02.2012 - 11.2013): Sviluppo di piattaforme di consulenza e
   reportistica sugli investimenti per i consulenti finanziari ("Consulenza
   Avanzata SEI").
   Stack tecnologico: Java, Spring, GWT, JPA, Hibernate, MS SQL Server
-- Reply / Alitalia (06/2011 - 01/2012): Migrazione, sviluppo e manutenzione
+- Reply / Alitalia (06.2011 - 01.2012): Migrazione, sviluppo e manutenzione
   del sistema fedeltà clienti MilleMiglia (CLS).
   Stack tecnologico: Java EE, GWT, REST, Oracle, PL/SQL
-- Glamoo (09/2010 - 06/2011): Sviluppo e manutenzione di una piattaforma
+- Glamoo (09.2010 - 06.2011): Sviluppo e manutenzione di una piattaforma
   e-commerce di vendite flash.
   Stack tecnologico: Java, Spring, JSP, Hibernate, MySQL, AWS
 
 Tirocinio universitario
-IRPPS-CNR, Roma, Italia | 09/2009 - 02/2010
+IRPPS-CNR, Roma, Italia | 09.2009 - 02.2010
 - Sviluppo e manutenzione di applicazioni web istituzionali, inclusa
   l'implementazione di nuove funzionalità e l'ottimizzazione delle
   prestazioni.
 Stack tecnologico: PHP, HTML, CSS, JavaScript, REST, Git
 
 
-COMPETENZE
+
+
+FORMAZIONE
 ----------
+Laurea in Ingegneria Informatica (triennale)
+Università degli Studi Roma Tre, Roma, Italia | 05.2010
+
+
+FORMAZIONE CONTINUA E CERTIFICAZIONI
+------------------------------------
+2021  ITIL Foundation Certificate in IT Service Management - PeopleCert / AXELOS
+2021  Cyber Security Foundation Professional Certificate - Certiprof
+2021  Data Science Orientation - Coursera / IBM
+2020  Professional Scrum Master I (PSM I) - Scrum.org
+2013  Oracle Certified Professional, Java SE 6 Programmer - Oracle
+2010  Enhancing Education for the Longevity of Electronic Archives - UNESCO / INIMA
+
+
+LINGUE
+------
+Italiano   Madrelingua
+Albanese   Madrelingua
+Inglese    Fluente (C1)
+Francese   Intermedio (B2)
+Tedesco    Base (A2)
+
+
+COMPETENZE INFORMATICHE
+-----------------------
 Linguaggi:          Java, Kotlin, TypeScript, JavaScript, SQL, PL/SQL,
                     Python, Ruby, PHP
 Backend:            Spring Boot, Spring Security, Java EE / Jakarta EE,
@@ -162,26 +189,6 @@ Agile e leadership: Scrum, Kanban, Lean, SAFe; coordinamento del team,
                     business continuity
 
 
-FORMAZIONE
-----------
-Laurea in Ingegneria Informatica (triennale)
-Università degli Studi Roma Tre, Roma, Italia | 05/2010
-
-
-CERTIFICAZIONI
---------------
-2021  ITIL Foundation Certificate in IT Service Management - PeopleCert / AXELOS
-2021  Cyber Security Foundation Professional Certificate - Certiprof
-2021  Data Science Orientation - Coursera / IBM
-2020  Professional Scrum Master I (PSM I) - Scrum.org
-2013  Oracle Certified Professional, Java SE 6 Programmer - Oracle
-2010  Enhancing Education for the Longevity of Electronic Archives - UNESCO / INIMA
-
-
-LINGUE
-------
-Italiano   Madrelingua
-Albanese   Madrelingua
-Inglese    Fluente (C1)
-Francese   Intermedio (B2)
-Tedesco    Base (A2)
+REFERENZE
+---------
+Referenze e certificati di lavoro disponibili su richiesta.

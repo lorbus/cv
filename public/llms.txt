@@ -6,7 +6,7 @@ This is the official online CV of Lorenc Bushati. The site is https://lorencbush
 
 Key facts:
 
-- Current role: Software Engineer at DB&L services (Bioggio, Switzerland), working for Avaloq on the Avaloq Banking Suite (ACP / AFP), since 10/2025
+- Current role: Software Engineer at DB&L services (Bioggio, Switzerland), working for Avaloq on the Avaloq Banking Suite (ACP / AFP), since 10.2025
 - Previous roles: Full Stack Software Engineer at OneFirewall Alliance (Lugano), Full Stack Engineer / Stream Lead at TechneValue for Credit Suisse (UBS Group) via Zuhlke (Zurich), IT Manager at Union of Financial Corners (Geneva), Full Stack Engineer at Capgemini Engineering (formerly Altran) for Ericsson (Genoa), Full Stack Developer at Key Partner (Rome)
 - Domains: core banking and wealth management (Avaloq), structured products and FX trading, telecom network management, cybersecurity, energy utilities, e-commerce, airline loyalty
 - Skills: Java, Kotlin, Spring Boot, Angular, TypeScript, microservices, REST APIs, Kubernetes, OpenShift, Docker, AWS, Helm, Argo CD, Jenkins, CI/CD, Oracle, PostgreSQL, MongoDB, team leadership, mentoring

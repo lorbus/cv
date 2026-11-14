@@ -1,15 +1,15 @@
 :root {
-    --ink: #1b1d2a;
-    --muted: #5a5f73;
-    --rule: #dcdce8;
+    --ink: #1a1a1a;
+    --muted: #595959;
+    --rule: #dedede;
     --paper: #f7f7fb;
-    --accent: #4338ca;
+    --accent: #c8102e;
     --nav-bg: rgba(247, 247, 251, 0.93);
     --surface: #fff;
-    --btn-bg: #4338ca;
-    --btn-hover: #3328a8;
-    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-    --sans: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    --btn-bg: #c8102e;
+    --btn-hover: #a00d25;
+    --serif: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+    --sans: "Helvetica Neue", Helvetica, Arial, system-ui, -apple-system, "Segoe UI", sans-serif;
     color-scheme: light;
 }
 
@@ -18,28 +18,28 @@
 @media screen and (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
         --ink: #e6e7ef;
-        --muted: #a0a5ba;
-        --rule: #2b2d3c;
+        --muted: #a6a6a6;
+        --rule: #2e2e2e;
         --paper: #111219;
-        --accent: #a5b4fc;
+        --accent: #ff7b6e;
         --nav-bg: rgba(17, 18, 25, 0.9);
         --surface: #1c1d28;
-        --btn-bg: #4f46e5;
-        --btn-hover: #4338ca;
+        --btn-bg: #c8102e;
+        --btn-hover: #a00d25;
         color-scheme: dark;
     }
 }
 @media screen {
     :root[data-theme="dark"] {
         --ink: #e6e7ef;
-        --muted: #a0a5ba;
-        --rule: #2b2d3c;
+        --muted: #a6a6a6;
+        --rule: #2e2e2e;
         --paper: #111219;
-        --accent: #a5b4fc;
+        --accent: #ff7b6e;
         --nav-bg: rgba(17, 18, 25, 0.9);
         --surface: #1c1d28;
-        --btn-bg: #4f46e5;
-        --btn-hover: #4338ca;
+        --btn-bg: #c8102e;
+        --btn-hover: #a00d25;
         color-scheme: dark;
     }
 }
@@ -188,13 +188,13 @@ nav a:hover {
 }
 
 h1 {
-    font: 600 clamp(2.7rem, 9vw, 4.8rem) / 1 var(--serif);
-    letter-spacing: -0.025em;
+    font: 700 clamp(2.5rem, 8vw, 4.2rem) / 1 var(--serif);
+    letter-spacing: -0.03em;
     margin: 0;
 }
 .role {
-    font: italic 1.4rem/1.3 var(--serif);
-    color: var(--accent);
+    font: 400 1.35rem/1.3 var(--serif);
+    color: var(--muted);
     margin: 0.7rem 0 1.2rem;
 }
 .lead {
@@ -228,13 +228,18 @@ h1 {
     background: var(--btn-hover);
     color: #fff;
 }
-.facts {
-    display: grid;
-    grid-template-columns: 9rem 1fr;
-    gap: 0.35rem 1.25rem;
-    margin: 0;
+.personal {
     padding-top: 1.25rem;
     border-top: 1px solid var(--rule);
+}
+.personal h2 {
+    margin-bottom: 0.75rem;
+}
+.facts {
+    display: grid;
+    grid-template-columns: 11.5rem 1fr;
+    gap: 0.35rem 2rem;
+    margin: 0;
 }
 .facts dt {
     color: var(--muted);
@@ -252,7 +257,10 @@ section.wrap {
     scroll-margin-top: 3rem;
 }
 h2 {
-    font: 600 1.75rem/1.2 var(--serif);
+    font: 700 0.95rem/1.2 var(--sans);
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--accent);
     margin: 0 0 1.5rem;
 }
 .about p {
@@ -283,7 +291,7 @@ h2 + .row {
     margin-top: 0.2rem;
 }
 h3 {
-    font: 600 1.2rem/1.3 var(--serif);
+    font: 700 1.1rem/1.3 var(--serif);
     margin: 0;
 }
 .meta {
@@ -480,17 +488,17 @@ footer.wrap {
         margin: 11mm 12mm;
     }
     html {
-        font-size: 9pt;
+        font-size: 8.6pt;
     }
     body {
         background: #fff;
         font-size: 1rem;
-        line-height: 1.38;
+        line-height: 1.34;
     }
     /* French and German run ~10-15% longer: tighten slightly to keep 2 pages */
     html:lang(fr),
     html:lang(de) {
-        font-size: 8.6pt;
+        font-size: 8.3pt;
     }
     html:lang(fr) body,
     html:lang(de) body {
@@ -526,15 +534,20 @@ footer.wrap {
         font-size: 1rem;
         margin: 0 0 0.25rem;
     }
-    .facts {
-        grid-template-columns: auto 1fr auto 1fr;
-        gap: 0.1rem 1rem;
-        margin-top: 0.25rem;
+    .personal {
+        margin-top: 0.3rem;
         padding-top: 0.35rem;
+        break-inside: avoid;
     }
-    .facts dt:nth-of-type(n + 3),
-    .facts dd:nth-of-type(n + 3) {
-        display: none;
+    .personal h2 {
+        margin-bottom: 0.2rem;
+    }
+    .facts {
+        grid-template-columns: auto auto auto 1fr;
+        gap: 0.05rem 0.9rem;
+    }
+    .facts dd {
+        margin-right: 1rem;
     }
     section.wrap {
         padding: 0.45rem 0;
@@ -543,7 +556,8 @@ footer.wrap {
     /* short sections stay whole; long ones may split between rows */
     #about,
     #education,
-    #languages {
+    #languages,
+    #references {
         break-inside: avoid;
     }
     dl.k dt {
@@ -553,7 +567,7 @@ footer.wrap {
         break-inside: avoid;
     }
     h2 {
-        font-size: 11.5pt;
+        font-size: 9.5pt;
         margin: 0 0 0.35rem;
         break-after: avoid;
     }
